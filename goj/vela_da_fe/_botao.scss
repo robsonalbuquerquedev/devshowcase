@@ -1,0 +1,19 @@
+$cor1: #333;
+$cor2: #fff;
+$cor3: #555;
+
+.botao {
+    display: block;
+    max-width: 20%;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: $cor1;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: $cor3;
+}
