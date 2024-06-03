@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+$fonteInter: "Inter", sans-serif;
+$cor1: #fff;
+$cor2: #333;
+
+.projects, .about-me {
+    margin: 2rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    h2 {
+        padding: 2rem;
+        text-transform: uppercase;
+    }
+}
+
+.cev, .me {
+    margin: 2rem;
+    padding: 2rem;
+    background: $cor1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a, p {
+        font-family: $fonteInter;
+        background-color: $cor1;
+        color: $cor2;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.me.photo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    img {
+        border-radius: 25%;
+    }
+}
