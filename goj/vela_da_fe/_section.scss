@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+$fonteInter: "Inter", sans-serif;
+
+$cor1: #f9f9f9;
+$cor2: #ccc;
+
+
+.intecao, .doacao, .contato {
+    background-color: $cor1;
+    border: 0.1rem solid $cor2;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    h2 {
+        
+        padding: 2rem;
+        text-transform: capitalize;
+        font-size: 2rem;
+    }
+    p {
+        font-family: $fonteInter;
+        font-size: 1.6rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+}
+
+.contato-content {
+    display: flex;
+}
+
