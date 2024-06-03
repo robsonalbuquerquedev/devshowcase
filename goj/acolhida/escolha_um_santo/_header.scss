@@ -1,0 +1,12 @@
+$cor1: #333;
+$cor2: #fff;
+
+header {
+    background-color: $cor1;
+    color: $cor2;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2.2rem;
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 0.5);
+}
