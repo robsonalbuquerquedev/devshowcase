@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import "_header";
+@import "_main";
+@import "_section";
+@import "_footer";
+
+$arial: Arial, sans-serif;
+$cor1: #f4f4f4;
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    background: $cor1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    font-family: $arial;
+    line-height: 1.6;
+}
