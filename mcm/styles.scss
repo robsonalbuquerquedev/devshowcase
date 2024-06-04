@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import "_header";
+@import "_main";
+@import "_section";
+@import "_aside";
+@import "_footer";
+
+$arial: Arial, sans-serif;
+$cor1: #f0f0f0;
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: $arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    line-height: 1.6;
+}
+
+body {
+    background-color: $cor1;
+}
+
+@media screen and (max-width:701px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .donate {
+        grid-column: 2;
+        grid-row: 1;
+    }
+}

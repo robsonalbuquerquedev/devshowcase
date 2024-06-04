@@ -1,0 +1,43 @@
+$cor1: #336699;
+$cor2: #00cc00;
+$cor3: #fff;
+
+.itens {
+    li {
+        font-size: 1.8rem;
+        position: relative;
+    }
+    img {
+        width: 5rem;
+        margin-right: 1rem;
+        vertical-align: middle;
+    }
+    grid-column: 1;
+}
+
+.status {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: $cor2;
+    color: $cor3;
+    padding: .2rem .5rem;
+    border-radius: .5rem;
+}
+
+.donate {
+    p {
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+    li {
+        font-size: 1.8rem;
+    }
+    img {
+        width: 3rem;
+        vertical-align: middle;
+    }
+    grid-column: 3;
+    grid-row: 2;
+}

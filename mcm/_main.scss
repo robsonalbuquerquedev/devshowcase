@@ -1,0 +1,13 @@
+$cor1: #336699;
+
+main {
+    max-width: 80rem;
+    padding: 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    h2 {
+        color: $cor1;
+        font-size: 2rem;
+    }
+}
