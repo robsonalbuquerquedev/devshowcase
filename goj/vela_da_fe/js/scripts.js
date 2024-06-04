@@ -87,18 +87,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const dataFormatada = `${dataAcendimento.getDate().toString().padStart(2, '0')}/${(dataAcendimento.getMonth() + 1).toString().padStart(2, '0')}/${dataAcendimento.getFullYear()}`;
         pData.textContent = `Data: ${dataFormatada} - Dia: ${vela.dias}`;
 
-        const removerButton = document.createElement('button');
+        /*const removerButton = document.createElement('button');
         removerButton.textContent = 'Remover';
         removerButton.className = 'remover-button';
         removerButton.addEventListener('click', () => {
             removerVela(vela);
-        });
+        });*/
 
         velaItem.appendChild(img);
         velaItem.appendChild(pNomeCidade);
         velaItem.appendChild(pIntencao);
         velaItem.appendChild(pData);
-        velaItem.appendChild(removerButton);
+        /*velaItem.appendChild(removerButton);*/
 
         velasDiv.appendChild(velaItem);
     }

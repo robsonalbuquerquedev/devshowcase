@@ -21,6 +21,7 @@ $cor1: #f7f7f7;
     outline: none;
     border: none;
     list-style: none;
+    line-height: 1.6;
 }
 
 body {
@@ -29,24 +30,16 @@ body {
 
 @media screen and (max-width:805px) {
     header {
-        font-size: 1.4rem
-    }
-    .botao, footer {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width:619px) {
-    .doacao p, .contato p {
-        font-size: 1.2rem;
+        font-size: 1.8rem
     }
 }
 
 @media screen and (max-width:431px) {
-    header {
-        font-size: 1rem;
+    main {
+        display: block;
     }
-    .doacao p, .contato p {
-        font-size: 1.3rem;
+    .doacao, .contato, .contato-content {
+        display: block;
+        text-align: center;
     }
 }
