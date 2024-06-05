@@ -4,6 +4,8 @@ $cor1: #fff;
 $cor2: #333;
 
 .projects, .about-me {
+    font-family: $fonteInter;
+    font-size: 1.6rem;
     margin: 2rem;
     padding: 2rem;
     background: #fff;
@@ -15,7 +17,39 @@ $cor2: #333;
     }
 }
 
-.content, .flexboxandgrid, .cev, .goj, .mcm, .me {
+.projeto {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: $cor1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    div {
+        background: $cor1;
+        a {
+            background: $cor1;
+            color: $cor2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .about-project {
+            h3, p {
+                background: $cor1;
+            }
+            h3 {
+                font-size: 1.4rem;
+                cursor: pointer;
+            }
+        }
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.me {
     margin: 2rem;
     padding: 2rem;
     background: $cor1;
@@ -24,16 +58,6 @@ $cor2: #333;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    a, p {
-        font-family: $fonteInter;
-        background-color: $cor1;
-        color: $cor2;
-        text-decoration: none;
-        font-size: 1.6rem;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
 }
 
 .me.photo {
