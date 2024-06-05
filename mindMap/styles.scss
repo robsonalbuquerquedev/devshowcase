@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import "_main";
+@import "_section";
+
+$cor1: #ccc;
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    line-height: 1.6;
+}
+
+body{
+    background-color: $cor1;
+}
+
+@media screen and (max-width:915px) {
+    .mindMap {
+        display: block;
+        #sp-img {
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+    }
+    .mini-mundo {
+        display: block;
+    }
+    .content {
+        margin-bottom: 3rem;
+    }
+}

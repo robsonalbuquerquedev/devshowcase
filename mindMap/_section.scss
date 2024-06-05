@@ -1,0 +1,63 @@
+$cor1: #000;
+$cor2: #fff;
+$cor3: #07785A;
+$cor4: #0A284C;
+$cor5: #ccc;
+
+.mindMap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    #sp-img {
+        grid-column: 2;
+        grid-row: 2 / 4;
+        width: 50rem;
+        align-self: center;
+    }
+    div {
+        text-align: center;
+        border: .1rem solid $cor1;
+        margin-bottom: 3rem;
+        h2 {
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        iframe {
+            width: 100%;
+        }
+    }
+}
+
+.bd {
+    background-image: linear-gradient($cor4, $cor3);
+    h2 {
+        color: $cor2;
+    }
+}
+
+.so {
+    background-image: linear-gradient($cor3, $cor4);
+    h2 {
+        color: $cor2;
+    }
+}
+
+.mini-mundo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.content {
+    background-color: $cor2;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 1rem;
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+}

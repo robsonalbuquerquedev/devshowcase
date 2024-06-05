@@ -1,0 +1,13 @@
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 30rem;
+        margin: 0 auto;
+    }
+    h1, h2 {
+        align-self: center;
+        font-size: 3rem;
+    }
+}
