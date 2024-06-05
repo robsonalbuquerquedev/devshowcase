@@ -39,14 +39,11 @@ Este repositório contém o código fonte para o site do grupo de oração GOJ, 
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/seu-usuario/goj.git
+   git checkout -b minha-nova-feature
+   git commit -m "Descrição das mudanças"
+   git push origin minha-nova-feature
 
-2. git checkout -b minha-nova-feature
-
-3. git commit -m "Descrição das mudanças"
-
-4. git push origin minha-nova-feature
-
-5. Abra uma pull request no GitHub.
+2. Abra uma pull request no GitHub.
 
 ## Licença
 
