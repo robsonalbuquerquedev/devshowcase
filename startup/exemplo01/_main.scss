@@ -1,0 +1,42 @@
+$cor1: #A0BDFF;
+$cor2: #a0cfff;
+$cor3: #001514;
+$cor4: #fff;
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h1 {
+        align-self: center;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    button {
+        align-self: center;
+        background-color: $cor1;
+        border-radius: .8rem;
+        width: 9.3rem;
+        height: 4.3rem;
+        font-size: 2rem;
+        color: $cor3;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: $cor2;
+    }
+    h2 {
+        align-self: center;
+        font-size: 2rem;
+    }
+    #title-login {
+        background-color: $cor4;
+        padding: 3rem;
+        text-align: center;
+        h1 {
+            font-weight: bold;
+            font-size: 3rem;
+            text-transform: capitalize;
+        }
+    }
+}

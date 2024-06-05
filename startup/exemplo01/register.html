@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Faz Favor facilita o empréstimo de ferramentas entre pessoas físicas e jurídicas, superando a barreira do alto custo de aquisição desses materiais, garantindo assim a realização de serviços que poderiam ser prejudicados pela falta de acesso às ferramentas adequadas.">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/29dd473d90.js" crossorigin="anonymous"></script>
+    <title>Faz Favor</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+            <span>Faz Favor</span>
+        </div>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="O que você está procurando?">
+            <button>Buscar</button>
+        </div>
+        <a href="#">Entregador</a>
+        <div class="account">
+            <a href="login.html" id="user"><i class="fa-regular fa-circle-user title-user"></i></a>
+            <div>
+                <a href="login.html">Minha Conta</a>
+                <span>Bem-vindo</span>
+            </div>
+        </div>
+        <div class="icons">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">shopping_cart</span>
+        </div>
+    </header>
+
+    <nav>
+        <div>
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <a href="index.html">home</a>
+        </div>
+        <a href="#">ferramentas elétricas</a>
+        <a href="#">ferramentas manuais</a>
+        <a href="#">epi</a>
+        <a href="#">construção</a>
+        <a href="#">automotivas</a>
+        <a href="#">medição</a>
+        <a href="#">jardim</a>
+        <a href="#">máquinas</a>
+        <a href="#">solda</a>
+        <a href="#">acessórios</a>
+    </nav>
+
+    <main>
+        
+        <div id="title-login">
+            <h1>Criar conta</h1>
+        </div>
+
+        <section class="content-cadastro">
+            <div class="ct-cadastro">
+                <h2>Informações Pessoais</h2>
+                <div class="ct-cadastro">
+                    <label for="input-1">Nome
+                        <span>*</span>
+                    </label>
+                    <input type="text" name="input-1" id="input-1" placeholder="Digite seu nome">
+                        <label for="isobrenome">Sobrenome
+                    <span>*</span>
+                        </label>
+                    <input type="isobrenome" name="input-2" id="input-2" placeholder="Digite seu sobrenome">
+                </div>
+                <div class="ct-cadastro radio">
+                    <input type="radio" name="person" id="ipf">
+                    <label for="ipf">Pessoa Física</label>
+                    <input type="radio" name="person" id="ipj">
+                    <label for="ipj">Pessoa Jurídica</label>
+                </div>
+                <div class="ct-cadastro">
+                    <input type="text" name="myid" id="myid" placeholder="Se marcado PF, digite seu CPF. Se marcado PJ, digite seu CNPJ">
+                </div>
+            </div>
+            <div class="ct-cadastro">
+                <h2>Informações de acesso</h2>
+                <div class="ct-cadastro">
+                    <label for="iemail">E-mail
+                        <span>*</span>
+                    </label>
+                    <input type="email" name="iemail" id="iemail" placeholder="Digite seu e-mail">
+                </div>
+                <div class="ct-cadastro checkbox">
+                    <input type="checkbox" name="icheck" id="icheck">
+                    <label for="icheck">Assinar Newsletter</label>
+                </div>
+                <div class="ct-cadastro">
+                    <label for="isenha">Senha
+                        <span>*</span>
+                    </label>
+                    <input type="password" name="isenha" id="isenha" placeholder="Digite sua senha">
+                </div>
+                <div class="ct-cadastro pass">
+                    <input type="checkbox" name="ver-senha" id="ver-senha">
+                    <label for="ver-senha">Mostrar senha</label>
+                </div>
+                <div class="ct-cadastro">
+                    <label for="repeat-pass">Confirmar Senha
+                        <span>*</span>
+                    </label>
+                    <input type="password" name="repeat-pass" id="repeat-pass" placeholder="Digite sua senha novamente">
+                </div>
+            </div>
+            <div class="ct-cadastro">
+                <button class="btn criar-conta">criar conta</button>
+            </div>
+        </section>
+
+        <aside>
+            <div class="itens">
+                <h2>mais acessados</h2>
+                <a href="#">Ferramentas</a>
+                <a href="#">Escadas de Alumínio</a>
+                <a href="#">Esmerilhadeiras</a>
+                <a href="#">Serras Circulares</a>
+                <a href="#">Ferramentas Elétricas</a>
+                <a href="#">Parafusadeiras</a>
+                <a href="#">Bomba D'Agua</a>
+            </div>
+            <div class="itens">
+                <h2>atendimento ao cliente</h2>
+                <a href="#">Como Alugar</a>
+                <a href="#">Formas de Entrega</a>
+                <a href="#">Formas de Pagamento</a>
+                <a href="#">Política de Segurança</a>
+                <a href="#">Política de Troca</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">SAC</a>
+            </div>
+            <div class="itens">
+                <h2>sobre nós</h2>
+                <a href="#">Quem Somos</a>
+                <a href="#">Trabalhe Conosco</a>
+            </div>
+            <div class="itens">
+                <h2>toolsshared nas redes sociais</h2>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; ToolsShared 2023-2024. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
