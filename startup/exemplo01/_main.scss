@@ -40,3 +40,10 @@ main {
         }
     }
 }
+
+.login {
+    padding: 10rem;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+}
