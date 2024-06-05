@@ -26,7 +26,6 @@ Para visualizar o projeto, siga as etapas abaixo:
    git clone https://github.com/rma98/DevShowcase.git
 
 2. Navegue até o diretório do projeto:
-  ```bash
    cd CSSGridLayoutEFlexbox
 
 3. open index.html
