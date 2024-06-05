@@ -23,6 +23,14 @@ $cor1: #f4f4f4;
     line-height: 1.6;
 }
 
+.hidden-div {
+    display: none;
+}
+
+.about-project h3:hover + .hidden-div {
+    display: block;
+}
+
 @media screen and (max-width:669px) {
     .me.photo {
         flex-direction: column;
