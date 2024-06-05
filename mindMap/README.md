@@ -35,13 +35,11 @@ Este repositório contém o código fonte para o site do projeto mindMap, inclui
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/seu-usuario/mindMap.git
-   ```bash
-2. git checkout -b minha-nova-feature
-    ```bash
-3. git commit -m "Descrição das mudanças"
-    ```bash
-4. git push origin minha-nova-feature
-5. Abra uma pull request no GitHub.
+   git checkout -b minha-nova-feature
+   git commit -m "Descrição das mudanças"
+   git push origin minha-nova-feature
+  
+2. Abra uma pull request no GitHub.
 
 ## Licença
 Este projeto é licenciado sob a MIT License.
