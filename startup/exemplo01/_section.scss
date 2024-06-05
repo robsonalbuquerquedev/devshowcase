@@ -4,6 +4,7 @@ $cor3: #fff;
 $cor4: #001514;
 $cor5: red;
 $cor6: #05668D;
+$cor7: #ccc;
 
 .content-tools {
     max-width: 100rem;
@@ -166,5 +167,46 @@ $cor6: #05668D;
         input {
             width: 1.3rem;
         }
+    }
+}
+
+.sc1 {
+    display: flex;
+    justify-content: center;
+    border-right: .2rem solid $cor4;
+}
+.sc2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    label {
+        font-size: 2rem;
+    }
+    span {
+        color: $cor5;
+        font-size: 1.5rem;
+    }
+    input {
+        width: 50rem;
+        height: 4.3rem;
+        padding: 1rem;
+        background-color: $cor7;
+        border-bottom: .1rem solid $cor4;
+    }
+    a {
+        margin-top: 2rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: $cor6;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .btn {
+        display: block;
+        width: 40rem;
+        text-transform: uppercase;
+        font-weight: bold;
     }
 }
