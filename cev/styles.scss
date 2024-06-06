@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import "_header";
+@import "_main";
+@import "_section";
+
+:root {
+    font-size: 62.5%;
+}
+
+$cor1: #ccc;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: $cor1;
+}
+
+@media screen and (max-width:1029px) {
+    .ex {
+        .items {
+            div {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:939px) {
+    .dsf {
+        .items {
+            div {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:726px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        .dsf {
+            order: 1;
+        }
+        .ex {
+            order: 3;
+        }
+        .projeto {
+            order: 4;
+        }
+        .teste {
+            order: 2;
+        }
+    }
+}

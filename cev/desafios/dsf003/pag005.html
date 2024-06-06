@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de HTML</title>
+    <style>
+        body {
+            background-color: #000000;
+        }
+        .content {
+            max-width: 80rem;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        .content > div {
+            display: flex;
+            align-items: end;
+            gap: .5rem;
+        }
+        @media screen and (max-width:629px) {
+            .content {
+                display: block;
+            
+            }
+            .content > div > a > img {
+                width: 2rem;
+            }
+    }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Curso de HTML5</h1>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/S9uPNppGsGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <a href="index.html" rel="prev"><img src="img/voltar.png" alt="Voltar"></a>
+        </div>
+    </div>
+</body>
+</html>
