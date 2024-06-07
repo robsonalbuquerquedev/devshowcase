@@ -1,0 +1,13 @@
+$cor1: #F5F5F5;
+$cor2: #000;
+
+main {
+    background-color: $cor1;
+    border: .1rem solid $cor2;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
