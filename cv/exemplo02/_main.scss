@@ -1,0 +1,13 @@
+$cor1: #172121;
+$cor2: #D9D7DD;
+
+main {
+    max-width: 80rem;
+    background: linear-gradient($cor1, $cor2);
+    box-shadow: 0 .4rem .4rem  rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

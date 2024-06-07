@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import "_header";
+@import "_main";
+@import "_section";
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+}
+
+@media screen and (max-width:924px) {
+    img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:999px) {
+    main {
+        grid-template-columns: repeat(1, 1fr);
+        .content1 {
+            .ct1 {
+                display: flex;
+                flex-direction: column;
+                gap: 0rem;
+            }
+        }
+        .content2 {
+            .ct2 {
+                display: flex;
+                flex-direction: column;
+                gap: 0rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import "_header";
+@import "_main";
+@import "_section";
+
+$cor1: #ccc;
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+}
+
+body {
+    background-color: $cor1;
+}
+
+@media screen and (max-width:391px) {
+    .about-me {
+        div {
+            address {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:361px) {
+    .about-me {
+        div {
+            address {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

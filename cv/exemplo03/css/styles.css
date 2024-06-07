@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(68.5deg, #332A2A, #000312, #0F1100);
+}
+
+/* CABEÇALHO E MENU */
+.cabecalho {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-image: linear-gradient(68.5deg, #332A2A, #000312, #0F1100);
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.367);
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 30%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.logo h1 {
+    font-family: 'Sarala', sans-serif;
+}
+
+.logo img {
+    padding: 20px;
+    width: 258px;
+}
+
+#burger {
+    display: none;
+    color: #fff;
+}
+
+#menu {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 70%;
+    justify-content: space-around;
+}
+
+#menu a, .texto-oculto a, input[type="submit"] {
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Righteous', cursive;
+}
+
+#menu a:hover, .texto-oculto a:hover, input[type='submit']:hover {
+    background-color: #C3CB00;
+    color: #0F1100;
+    opacity: .7;
+    padding: 25px;
+    transition: .3s;
+}
+
+/* CONTEÚDO DA PÁGINA */
+.container {
+    margin-bottom: 80px;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    background-image: linear-gradient(68.5deg, #332A2A, #0F1100  );
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.367);
+}
+
+.title h2 {
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+    padding: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-me, .challenge, .achievement, .learned {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-bottom: 80px;
+}
+
+.project {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-bottom: 80px;
+}
+
+.testimonial {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px;
+    margin-bottom: 80px;
+}
+.content-testimonial {
+    margin-bottom: 20px;
+}
+
+.content-testimonial h3 {
+    color: #fff;
+}
+
+.video {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px;
+    height: 400px;
+}
+
+.content-video {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#my-video {
+    position: absolute;
+    left: 20px;
+}
+
+.content-about-me-photo, .content-challenge-photo, .content-achievement-photo, .content-learned-photo {
+    flex: 23%;   
+}
+
+.content-about-me, .content-challenge, .content-achievement, .content-learned {
+    flex: 77%;
+}
+
+.content-about-me p,.content-challenge p, .content-achievement p, .content-learned p {
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    text-indent: 1rem;
+}
+
+.card {
+    flex: 32%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color: #332A2A;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-title h2 {
+    font-family: 'Sarala', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+.texto-oculto {
+    display: none;
+    background-color: #332A2A;
+}
+
+.texto-oculto p {
+    text-align: justify;
+    text-indent: 1rem;
+    color: #fff;
+    margin: 20px;
+}
+
+.texto-oculto a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    background-color: #C3CB00;
+    opacity: .7;
+}
+
+.texto-oculto a:hover {
+    background-color: #0F1100;
+    color: #fff;
+    opacity: 1;
+}
+
+.content-video {
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-01 {
+    height: 80%;
+    margin: 20px;
+}
+
+/* RODAPÉ */
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-bottom: 80px;
+}
+
+.my-data {
+    flex: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    height: 980px;
+}
+
+.my-data i {
+    margin: 20px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.my-data p {
+    border-left: 3px solid #E60084;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+.loc-maps {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+
+.form {
+    flex: 50%;
+}
+
+.formulario {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.formulario h2 {
+    font-family: 'Sarala', sans-serif;
+    color: #E60084;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.formulario i {
+    color: #E60084;
+    font-size: 2rem;
+}
+
+input:focus, 
+label:focus,
+textarea:focus {
+    outline: none;
+}
+
+label {
+    color: #E60084;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+label, input, textarea {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    border-radius: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 1.3rem;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    background-color: #E60084;
+    font-size: 2rem;
+}
+
+.social-media {
+    margin-top: 80px;
+    flex: 100%;
+}
+
+.social-media-title {
+    font-family: 'Sarala', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.social-media-icone {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.social-media-icone i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(#515BD4, #B134AF, #DD2A7B, #FEDA77, #F58529);
+}
+
+.fa-linkedin {
+    background-color: #007AB9;
+}
+
+.direitos-reservados p {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
