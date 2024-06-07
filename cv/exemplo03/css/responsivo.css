@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/* CABEÇALHO E MENU */
+@media (max-width: 525px) {
+    .cabecalho {
+        flex-flow: column wrap;
+    }
+    .logo h1 {
+        display: none;
+    }
+    #burger {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    #menu {
+        display: none;
+        width: 100%;
+    }
+    #menu a {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* SEÇÕES */
+@media (max-width: 991px) {
+    .about-me, .challenge, .achievement, .learned {
+        flex-flow: column wrap;
+    }
+    .about-me p {
+        padding-top: 10px;
+    }
+    .photo {
+        width: 450px;
+    }
+}
+
+@media (max-width: 530px) {
+    .photo {
+        width: 350px;
+    }
+}
+
+@media (max-width: 430px) {
+    .photo {
+        width: 300px;
+    }
+}
+
+@media (max-width: 380px) {
+    .photo {
+        width: 250px;
+    }
+    #my-photo {
+        width: 200px;
+    }
+}
+
+/* PROJETOS */
+@media (max-width: 587px) {
+    .project {
+        flex-flow: column wrap;
+    }
+}
+
+/* VÍDEO */
+@media (max-width: 703px) {
+    #video-01 {
+        height: 70%; ;
+    }
+}
+
+@media (max-width: 588px) {
+    #video-01 {
+        height: 60%; ;
+    }
+}
+
+@media (max-width: 497px) {
+    #video-01 {
+        height: 50%; ;
+    }
+}
+
+@media (max-width: 429px) {
+    #video-01 {
+        height: 40%; ;
+    }
+}
+
+@media (max-width: 362px) {
+    #video-01 {
+        height: 30%; ;
+    }
+}
+
+/* LOCALIZAÇÃO */
+@media (max-width: 1321px) {
+    #loc {
+        width: 530px;
+    }
+}
+
+@media (max-width:588px) {
+    .my-data i, .my-data p {
+        font-size: 1.2rem;
+    }
+    #loc {
+        width: 500px;
+    }
+}
+
+@media (max-width:570px) {
+    .my-data i, .my-data p {
+        font-size: 1.2rem;
+    }
+    #loc {
+        width: 400px;
+    }
+}
+
+@media (max-width:570px) {
+    .my-data i, .my-data p {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #loc {
+        width: 300px;
+    }
+}
+
+@media (max-width: 399px) {
+    #loc {
+        width: 250px;
+    }
+}
+
+@media (max-width: 318px) {
+    #loc {
+        display: none;
+    }
+}
