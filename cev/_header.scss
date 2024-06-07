@@ -9,6 +9,10 @@ header {
         font-size: 3rem;
         padding: 1rem;
     }
+    a {
+        grid-column: 1;
+        grid-row: 1;
+    }
     img {
         opacity: .7;
         grid-column: 1;
