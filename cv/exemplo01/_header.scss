@@ -1,0 +1,39 @@
+$cor1: #000;
+$cor2: #F5F5F5;
+$verdana: Verdana, Geneva, Tahoma, sans-serif;
+
+header {
+    background-color: $cor2;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    font-family: $verdana;
+    position: relative;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    h1 {
+        text-shadow: rgba(0, 0, 0, 0.5);
+    }
+    address {
+        font-size: 1.6rem;
+        text-align: center;
+        a {
+            color: $cor1;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+    img {
+        position: absolute;
+        right: 2%;
+        border-radius: 50%;
+        border: .2rem solid $cor1;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
