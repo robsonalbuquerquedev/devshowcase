@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <title>Meu Portfolio</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="img/logo-Robecia-rbg.png" alt="Logo Elas na Tech 2023">
+            <h1>Elas na TECH 2023</h1>
+        </div>
+        <i class="fa fa-bars" id="burger" onclick="clickMenu()"></i>
+        <nav id="menu">
+            <a href="#SOBRE-MIM">SOBRE MIM</a>
+            <a href="#">INÍCIO</a>
+            <a href="#DESAFIOS">DESAFIOS</a>
+            <a href="#CONQUISTAS">CONQUISTAS</a>
+            <a href="#APRENDIZADO">APRENDIZADO</a>
+            <a href="#PROJETOS">PROJETOS</a>
+            <a href="#DEPOIMENTO">DEPOIMENTO</a>
+            <a href="#CONTATO">CONTATO</a>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="title" id="SOBRE-MIM">
+            <h2>Quem Sou Eu?</h2>
+        </div>
+        <section class="about-me">
+            <div class="content-about-me-photo">
+                <img src="img/foto01.jpg" alt="Minha foto" id="my-photo">
+            </div>
+            <div class="content-about-me">
+                <p>
+                    Sou Robécia Barros, tenho 35 anos e sou cisgênero. Sou uma pernambucana apaixonada pela cultura nordestina e pela cidade de Ribeirão, no interior. Sou mãe de duas lindas filhas de 9 e 11 anos, e sou casada com um homem que me apoia muito, inclusive enquanto estou finalizando o curso <strong>Elas na Tech</strong>.
+                </p>
+                <p>
+                    Bem, essa Robecia está sempre mudando, passando por ciclos, caindo, levantando, chorando, sorrindo, com o cabelo às vezes comprido e às vezes curtinho, e ama tudo isso. Essa metamorfose é capaz de proporcionar toda a resiliência necessária para suportar os momentos mais difíceis da vida, pois no final tudo passa e, com determinação e foco, tudo dá certo. 
+                </p>
+                <p>
+                    Observando o mercado de TI pós-pandemia e a demanda crescente, comecei a seguir páginas de tecnologia no Instagram, obter informações de pessoas que já estão na área e me surpreendi com a possibilidade de trabalhar remotamente.
+                </p>
+                <p>
+                    Foi assim que cheguei à JA Brasil e, com o processo seletivo aberto do Elas na Tech, fiz minha inscrição, fui aprovada e me encantei com o mundo do FrontEnd. Claro! Ainda há um caminho a percorrer, mas o mais importante aconteceu: a trilha com Elas nunca será esquecida.
+                </p>
+            </div>
+        </section>
+        <div class="title" id="DESAFIOS">
+            <h2>Desafios</h2>
+        </div>
+        <section class="challenge">
+            <div class="content-challenge">
+                <p>
+                    Minha maior superação foi acreditar que a programação também era para mim. Apesar de ser inicialmente bem complexo, eu não imaginava que em algum momento eu e os códigos caminhariam juntos. E não é que, mesmo com pouco tempo, persistência e muitos estudos nas madrugadas, as coisas foram fluindo?
+                </p>
+                <p>
+                    O HTML demorou, mas eu consegui, e o CSS me fez descobrir que precisamos dele para deixar as coisas bonitas, como a professora Gil do curso sempre diz. Ah! E o que dizer da Érika, uma pessoa de coração gigante, que elevou minha autoconfiança e nunca negou um pedido de "não me abandona, pelo amor de Deus".
+                </p>
+                <p>
+                    As colegas de curso foram como professoras de reforço para mim, e em especial a Roseane (Rosi), que é um ser humano ímpar que não se encontra em qualquer lugar. Enfim, descobri que a programação é para aqueles que não desistem e para os teimosos, e eu sou um deles.
+                </p>
+            </div>
+            <div class="content-challenge-photo">
+                <img src="img/hard-work.png" alt="Desafios" class="photo">
+            </div>
+        </section>
+        <div class="title" id="CONQUISTAS">
+            <h2>Conquistas</h2>
+        </div>
+        <section class="achievement">
+            <div class="content-achievement-photo">
+                <img src="img/achievement.png" alt="Conquistas" class="photo">
+            </div>
+            <div class="content-achievement">
+                <p>
+                    Aprender a criar sites, trabalhar com responsividade e memorizar códigos foi algo incrível. Mas algo que a professora Gil disse:
+                </p>
+                <p>
+                    "Não há sucesso na programação sem dedicação diária. É necessário um ritmo de estudos que nos leve a aprender de verdade, cada um seguindo seu próprio ritmo e realidade, mas o importante é não desistir."
+                </p>
+                <p>
+                    E eu não desisti mesmo, recebi apoio de colegas e aproveitei o vasto material do YouTube, que é uma ferramenta indispensável.
+                </p>
+            </div>
+        </section>
+        <div class="title" id="APRENDIZADO">
+            <h2>Aprendizado</h2>
+        </div>
+        <section class="learned">
+            <div class="content-learned">
+                <p>
+                    Meu maior aprendizado foi ouvir inúmeros relatos de mulheres que, assim como eu, têm filhos, são donas de casa, tentam empreender para gerar renda e retornam aos estudos aos 35 anos com determinação para voltar ao mercado de trabalho com uma nova profissão. Sim! Tecnologia é para mulheres, mães, donas de casa que serão programadoras com muita dedicação.
+                </p>
+                <p>
+                    Tudo começa com essa mensagem:
+                </p>
+                <p>
+                    <strong>Quer se tornar uma desenvolvedora web pronta para se inserir no mercado de trabalho? Aqui é o lugar certo para você! De maio a outubro, mulheres de todo o país aprenderão programação web do zero ao avançado de forma totalmente online e gratuita.</strong>
+                </p>
+                <p>
+                    Isso mudou minha visão de tecnologia, vivi uma verdadeira metamorfose.
+                </p>
+            </div>
+            <div class="content-learned-photo">
+                <img src="img/learning.png" alt="Aprendizado" class="photo">
+            </div>
+        </section>
+        <div class="title" id="PROJETOS">
+            <h2>Projetos</h2>
+        </div>
+        <section class="project">
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 01</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/website-coding.png" alt="Projeto 01">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 02</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/web.png" alt="Projeto 02">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 03</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/developer.png" alt="Projeto 03">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 04</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/website-coding.png" alt="Projeto 01">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 05</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/web.png" alt="Projeto 02">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 06</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/developer.png" alt="Projeto 03">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 07</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/website-coding.png" alt="Projeto 01">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 08</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/web.png" alt="Projeto 02">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Projeto 09</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/developer.png" alt="Projeto 03">
+                </div>
+                <div class="texto-oculto">
+                    <p>
+                        Projeto de página web estática como parte do exercício proposto no curso Web Frontend Fundamentos: HTML, CSS e JS.
+                    </p>
+                    <a href="#" target="_blank">Ir para o site</a>
+                    <a href="#" target="_blank">Ir para o repositório</a>
+                </div>
+            </div>
+        </section>
+        <div class="title" id="DEPOIMENTO">
+            <h2>Depoimento</h2>
+        </div>
+        <section class="testimonial">
+            <div class="content-testimonial">
+                <h3>Fale sobre sua experiência com o Elas na Tech, deixe seu depoimento</h3>
+            </div>
+        </section>
+        <div class="title">
+            <h2>Vídeo</h2>
+        </div>
+        <section class="video">
+            <div class="content-video">
+                <video id="video-01" controls>
+                    <source src="video/meu-video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+    </main>
+    <div class="title" id="CONTATO">
+        <h2>Contato</h2>
+    </div>
+    <footer class="footer">
+        <div class="my-data">
+            <i class="fa fa-phone"><p>Telefone <br>5581 9 94562434</p></i>
+            <i class="fa fa-envelope"><p>E-mail <br>robeciabarros@ymail.com</p></i>
+            <i class="fa fa-location-dot"><p>Endereço <br></p></i>
+            <div class="loc-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.879382863442!2d-35.37879762508025!3d-8.51109068618096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aa65ea3fa18c57%3A0xc3f2abd1f251a47e!2sR.%20Martins%20Jr%20-%20Ribeir%C3%A3o%2C%20PE%2C%2055520-000!5e0!3m2!1spt-BR!2sbr!4v1696134057848!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="loc"></iframe>
+            </div>
+        </div>
+        <div class="form">
+            <form class="formulario" autocomplete="on">
+                <h2>Envie uma Mensagem:</h2>
+                <label for="name"><i class="fa fa-user"></i></label>
+                <input type="text" name="name" id="name" placeholder="Nome Completo">
+                <label for="e-mail"><i class="fa fa-envelope"></i></label>
+                <input type="email" name="e-mail" id="e-mail" placeholder="E-mail">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="2" placeholder="Escreva sua mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="social-media">
+            <div class="social-media-title">
+                <h2>Siga minhas redes</h2>
+            </div>
+            <div class="social-media-icone">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-github"></i>
+            </div>
+            <div class="direitos-reservados">
+                <p>©Robecia Barros - {Elas na Tech 2023}</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/29dd473d90.js" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
