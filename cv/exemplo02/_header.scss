@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&display=swap');
+
+$cor1: #172121;
+$cor2: #d9d7dd;
+$cor3: #444554;
+
+$segoe: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$lucida: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$merriweather: 'Merriweather', serif;
+
+header {
+    background-color: $cor2;
+    box-shadow: .4rem .6em .3rem .3rem rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    h1 {
+        font-family: $segoe;
+        color: $cor1;
+        text-align: center;
+        font-size: 3rem;
+        text-shadow: .1rem .1rem .4rem rgba(0, 0, 0, 0.5);
+    }
+    h2 {
+        font-family: $lucida;
+        background-color: $cor3;
+        padding: .5rem;
+        text-align: center;
+        font-size: 2.5rem;
+        color: $cor2;
+        text-shadow: .1rem .1rem .4rem rgba(0, 0, 0, 0.5);
+    }
+    p {
+        font-family: $merriweather;
+        line-height: 1.6;
+        font-size: 1.6rem;
+        text-indent: 1.5rem;
+    }
+}
