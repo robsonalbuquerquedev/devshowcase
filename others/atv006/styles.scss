@@ -1,0 +1,59 @@
+@import "_header";
+@import "_nav";
+@import "_main";
+@import "_section";
+@import "_footer";
+
+$cor1: #02203b;
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.pag02-03-body {
+    background-color: $cor1;
+}
+
+@media screen and (max-width:1000px) {
+    .pag002 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:960px) {
+    .pag003 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:563px) {
+    .about-us {
+        p {
+            font-size: 1.6rem;
+        }
+    }
+    .sc-endereco {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        .lipnt {
+            input {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .pag002 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
