@@ -14,7 +14,7 @@
 
 body {
     background: #431113 url('../../img/tools-bg.jpg') no-repeat left center;
-    background-size: cover;
+    background-size: contain;
 }
 
 input:focus, 
