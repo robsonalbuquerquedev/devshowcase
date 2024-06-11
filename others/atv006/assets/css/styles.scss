@@ -18,6 +18,11 @@ $cor1: #02203b;
     border: none;
 }
 
+.body-bg {
+    background: $cor1 url('../../img/foto5.jpg') no-repeat fixed center;
+    background-size: contain;
+}
+
 .pag02-03-body {
     background-color: $cor1;
 }
