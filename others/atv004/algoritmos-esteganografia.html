@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Informações sobre as funções</title>
+</head>
+<body>
+<div id="interface">
+    <section id="corpo">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h1>Passo a passo do código</h1>
+                    <h2>por Robson Albuquerque</h2>
+                    <h3 class="direita">Atualizado em 19/Janeiro/2023</h3>
+                </hgroup>
+            </header>
+            <h2>Função "criar_pastas():"</h2>
+            <p>É chamada no início do código e os nomes das pastas são passados como argumentos.</p>
+            <p>Ela usa o módulo "os" para verificar se as pastas já existem, e se não, cria-as. Isso garante que as pastas necessárias para armazenar as imagens estejam disponíveis antes de baixar e salvar as imagens.</p>
+            <p>Em seguida, as URLs das imagens de gatos e cachorros são definidas em listas separadas.</p>
+
+            <h2>Função "baixar_imagens()":</h2>
+            <p>É chamada e os argumentos necessários são passados para esta função.</p>
+            <p>Ela usa a biblioteca "requests" para baixar as imagens a partir das URLs fornecidas e salva-as na pasta especificada.</p>
+            <p>Dessa forma, as imagens de gato e cachorro são baixadas e salvadas nas pastas correspondentes, "pasta1" para gatos e "pasta2" para cachorros.</p>
+
+            <h2>Função "esconder_imagens()":</h2>
+            <p>É chamada para combinar as imagens de gato e cachorro, lado a lado, e salvar a imagem resultante na pasta3. </p>
+            <p>Ela usa a biblioteca PIL para abrir as imagens de gato e cachorro, redimensiona a imagem de cachorro para o tamanho da imagem de gato, cola a imagem de cachorro sobre a imagem de gato e salva a imagem resultante na pasta3.</p>
+            <p>Isso permite esconder a imagem de cachorro dentro da imagem de gato.</p>
+
+
+            <h2>Função "extrair_imagens()":</h2>
+            <p>É chamada para extrair as imagens escondidas da pasta3.</p>
+            <p>Ela usa a biblioteca PIL para abrir cada imagem resultante e separa as bandas de cor (R, G, B) e salva cada banda em uma pasta diferente (pasta_cat, pasta_dog).</p>
+            <p>Desta forma, as camadas de imagem escondidas são extraídas e salvas em pastas separadas.</p>
+        </article>
+    </section>
+    <aside id="lateral">
+        <h1>Outras Informações</h1>
+        <p>O primeiro passo é criar as pastas necessárias para armazenar as imagens.</p>
+        <p>Em seguida, as URLs das imagens de gatos e cachorros são definidas em listas separadas.</p>
+
+        <h2>Função "criar_pastas():" </h2>
+        <p>É chamada e os nomes das pastas são passados como argumentos. Ela verifica se as pastas já existem, e se não, cria-as.</p>
+
+        <h2>Função "esconder_imagens():"</h2>
+        <p>É chamada para combinar as imagens de gato e cachorro, lado a lado, e salvar a imagem resultante na pasta3.</p>
+        <p>A função abre cada imagem de gato e cachorro, redimensiona a imagem de cachorro para o tamanho da imagem de gato, cola a imagem de cachorro sobre a imagem de gato e salva a imagem resultante na pasta3.</p>
+
+        <h2>Função "extrair_imagens():"</h2>
+        <p>É chamada para extrair as imagens escondidas da pasta3.</p>
+        <p>Ela abre cada imagem resultante e separa as bandas de cor (R, G, B) e salva cada banda em uma pasta diferente (pasta_cat, pasta_dog).</p>
+        <p>Desta forma, as camadas de imagem escondidas são extraídas e salvas em pastas separadas.</p>
+
+        <h2>Observações</h2>
+        <p>É importante lembrar que é necessário fazer o upload das imagens para o seu notebook Colab antes de executar o código e você também deve criar as pastas na sua unidade de armazenamento do Colab (geralmente é a unidade "drive/") antes de rodar o código.</p>
+        <p>Em resumo, o código cria as pastas necessárias, baixa imagens a partir de urls, esconde as imagens baixadas em uma nova imagem e extrai as imagens escondidas para salva-las em pastas diferentes.</p>
+        <p>Em resumo, o código cria as pastas necessárias, baixa imagens a partir de urls, esconde as imagens baixadas em uma nova imagem e extrai as imagens escondidas para salva-las em pastas diferentes.</p>
+        <p>Ele usa as bibliotecas os, requests e PIL para realizar essas tarefas, e as funções para organizar o código e torná-lo mais fácil de ler e entender.</p>
+    </aside>
+    <footer id="rodape">
+        <p>&copy; Copyright 2023 - by Robson Albuquerque <br>
+            <a href="https://colab.research.google.com/drive/1dBbi4Exzr6tWpt_BI89l9Ul0-G6GMmDU?usp=sharing" target="_blank">Esteganografia</a>
+    </footer>
+</div>
+</body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #dddddd;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    div#interface {
+        width: 900px;
+        background-color: #ffffff;
+        margin: -20px auto 0px auto;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 50px;
+    }
+
+    a {
+        color: #606060;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    section#corpo {
+        display: block;
+        width: 500px;
+        float: left;
+        border-right: 1px solid #606060;
+        padding-right: 15px;
+    }
+
+    article#noticia-principal h2 {
+        font-size: 13pt;
+        color: #606060;
+        background-color: #888888;
+        padding: 5px 0px 5px 10px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    header#cabecalho-artigo h1 {
+        font-family: 'Fonte-logo', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    header#cabecalho-artigo h2 {
+        font-size: 13pt;
+        color: #cecece;
+        background-color: #ffffff;
+        margin: 0px;
+    }
+
+    header#cabecalho-artigo h3 {
+        font-size: 12pt;
+        color: #606060;
+    }
+
+    .direita {
+        text-align: right;
+    }
+
+    aside#lateral {
+        display: block;
+        width: 350px;
+        float: right;
+        background-color: #dddddd;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    }
+
+    aside#lateral h1 {
+        font-family: 'Fonte-logo', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-top: 0px;
+    }
+
+    aside#lateral h2 {
+        background-color: #606060;
+        font-size: 13pt;
+        color: #ffffff;
+        padding: 5px;
+    }
+
+    footer#rodape {
+        clear: both;
+        border-top: 1px solid #606060;
+    }
+
+    footer#rodape p {
+        text-align: center;
+    }
+</style>
+</html>
