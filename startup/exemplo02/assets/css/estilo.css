@@ -13,7 +13,7 @@
 }
 
 body {
-    background: #431113 url('/startup/exemplo02/img/tools-bg.jpg') no-repeat left center;
+    background: #431113 url('../../img/tools-bg.jpg') no-repeat fixed left center;
     background-size: cover;
 }
 
