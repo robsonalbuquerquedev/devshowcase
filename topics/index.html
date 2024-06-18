@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Estudos de HTML e CSS</title>
+</head>
+<body>
+    <header>
+        <h1>Estudos de HTML e CSS</h1>
+        <nav>
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#mediaquery">MediaQuery</a>
+            <div class="dropdown">
+                <span>Hora de Codar</span>
+                <div class="dropdown-content">
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=SV7TL0hxmIQ" target="_blank">Curso de HTML</a>
+                        <a href="https://www.youtube.com/watch?v=vwbegraDXD8" target="_blank">Curso de CSS</a>
+                        <a href="https://www.youtube.com/watch?v=kEBrkPNv4Zk/" target="_blank">positions do CSS</a>
+                        <a href="https://www.youtube.com/watch?v=8VapN6x897U" target="_blank">CSS Grid</a>
+                        <a href="https://www.youtube.com/watch?v=P9TrFDNwor4" target="_blank">Flexbox</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="html">
+            <h2>HTML</h2>
+            <article id="o-que-e-htmt">
+                <h3>O que é HTML?</h3>
+                <p>HTML (HyperText Markup Language) é a linguagem padrão para criar páginas web. Ele descreve a estrutura de uma página web utilizando marcações.</p>
+                <ul>
+                    <li>Acrônimo para <strong>Hypertext Markup Language</strong>.</li>
+                    <li>Uma linguagem para <strong>estudar o layout</strong> das páginas web.</li>
+                    <li>Não podemos realizar: <strong>if/else, loops, funções</strong>.</li>
+                    <li>Faz parte da <strong>tríade web:</strong> HTML, CSS e JS.</li>
+                    <li><strong>Pode ser executada diretamente no navegador</strong>, não precisa de um setup.</li>
+                    <li><strong>Toda página</strong> web tem sua composição HTML.</li>
+                </ul>
+            </article>
+            <article id="estrutura-html">
+                <h3>O que forma a estrutura?</h3>
+                <p>A estrutura de um documento HTML é formada por elementos, que são representados por tags.</p>
+                <ul>
+                    <li>Vamos criar <strong>elementos</strong> que são <strong>parecidos com os do Word</strong>, onde estruturamos um texto, exemplo:</li>
+                    <li>Títulos</li>
+                    <li>Parágrafos</li>
+                    <li>Listas</li>
+                    <li>Tabelas</li>
+                    <li>Imagens</li>
+                </ul>
+            </article>
+            <article id="executar-html">
+                <h3>Como executar HTML?</h3>
+                <p>Para executar HTML, basta criar um arquivo com a extensão .html e abri-lo em um navegador web.</p>
+                <ul>
+                    <li>Para executar HTML basta um <strong>navegador</strong>.</li>
+                    <li>Vamos criar o nosso código em algum editor de código, sugiro o <strong>VS Code</strong>.</li>
+                    <li>Salvar o arquivo do projeto com a <strong>extensão .html</strong>.</li>
+                    <li>E <strong>abrir este arquivo pelo navegador</strong>, copiando o seu caminho relativo.</li>
+                </ul>
+            </article>
+            <article id="tags-html">
+                <h3>O que são tags?</h3>
+                <p>Tags são usadas para criar elementos HTML. Elas são representadas por nomes entre colchetes angulares, como <code>&lt;div&gt;</code> ou <code>&lt;p&gt;</code>.</p>
+                <ul>
+                    <li>Os elementos do HTML são escritos através de <strong>tags</strong>.</li>
+                    <li>Temos uma <strong>sintaxe semelhante</strong> para quase todas elas.</li>
+                    <li>Sintaxe é a <strong>forma de como é codificado algo</strong> em uma linguagem de programação.</li>
+                    <li>Exemplo:</li>
+                    <img src="img/foto-ex01-html.png" alt="Exemplo de parágrafo">
+                    <li>Esta tag cria um <strong>parágrafo</strong> no nosso site.</li>
+                </ul>
+            </article>
+            <article id="atributos-html">
+                <h3>Os atributos do HTML</h3>
+                <p>Atributos fornecem informações adicionais sobre elementos HTML. Eles são especificados na tag de abertura e geralmente consistem em pares nome/valor.</p>
+                <ul>
+                    <li>Atributos são como <strong>opções especiais para configurar</strong> determinadas tags.</li>
+                    <li>Exemplo:</li>
+                    <img src="img/foto-ex02-html.png" alt="Exemplo de link">
+                    <li>Esta tag <strong>gera um elemento clicável</strong>, que nos leva até uma outra página.</li>
+                    <li>E o link desta página é determinado pelo <strong>atributo href</strong>.</li>
+                </ul>
+            </article>
+            <article id="encadeamento-html">
+                <h3>Encadeamento (nesting)</h3>
+                <p>Encadeamento se refere a colocar elementos HTML dentro de outros elementos HTML, criando uma hierarquia.</p>
+                <ul>
+                    <li>Encadeamento, também chamado de <strong>nesting</strong>, é quando adicionamos um elemento dentro de outro.</li>
+                    <li>Uma <strong>técnica importante do HTML</strong>, para criar sessões, exemplo:</li>
+                    <img src="img/foto-ex03-html.png" alt="Exemplo de nesting">
+                    <li>Aqui temos uma <strong>div</strong> com um título e um parágrafo, ambos encadeados.</li>
+                </ul>
+            </article>
+            <article id="tags-sem-fechamento">
+                <h3>Tags sem fechamento</h3>
+                <p>Algumas tags HTML não requerem uma tag de fechamento. Exemplos incluem <code>&lt;br&gt;</code> e <code>&lt;img&gt;</code>.</p>
+                <ul>
+                    <li>Há tags que <strong>não possuem fechamento</strong>.</li>
+                    <li>Geralmente é quando ela <strong>não tem conteúdo</strong>.</li>
+                    <li>Um exemplo é a <strong>imagem</strong>, veja:</li>
+                    <img src="img/foto-ex04-html.png" alt="Exemplo de imagem">
+                    <li>Os <strong>atributos</strong> configuram a tag completamente.</li>
+                    <li>Inserindo o caminho da imagem (<strong>src</strong>) e uma descrição (<strong>alt</strong>)</li>
+                </ul>
+            </article>
+            <article id="estrutura-basica-html">
+                <h3>Estrutura básica do HTML</h3>
+                <p>Um documento HTML básico inclui a declaração do tipo de documento, uma tag <code>&lt;html&gt;</code>, uma tag <code>&lt;head&gt;</code> e uma tag <code>&lt;body&gt;</code>.</p>
+                <pre><code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                        &lt;head&gt;
+                            &lt;title&gt;Título da página&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;h1&gt;Cabeçalho&lt;/h1&gt;
+                            &lt;p&gt;Parágrafo de texto&lt;/p&gt;
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                </code></pre>
+                <ul>
+                    <li>Todo documento de HTML tem uma estrutura muito semelhante, composta por tags essenciais, exemplo:</li>
+                    <img src="img/foto-ex05-html.png" alt="Exemplo de estrutura básica do HTML">
+                </ul>
+            </article>
+        </section>
+
+        <section id="css">
+            <h2>CSS</h2>
+            <article id="o-que-e-css">
+                <h3>O QUE É CSS?</h3>
+                <p>CSS (Cascading Style Sheets) é uma linguagem utilizada para estilizar elementos HTML em uma página web.</p>
+                <ul>
+                    <li>CSS é uma <strong>linguagem de estilização</strong>.</li>
+                    <li>Um acrônimo para <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets.</li>
+                    <li>Frequentemente <strong>utilizada junto com HTML</strong>.</li>
+                    <li>Podemos posicionar elementos, criar animações, e <strong>reproduzir um layout na web</strong>.
+                    <li>Pode ser <strong>executada diretamente no navegador</strong>, não precisa de setup.
+                </ul>
+            </article>
+            <article id="sintaxe-css">
+                <h3>A sintaxe do CSS</h3>
+                <p>A sintaxe do CSS consiste em um seletor e um bloco de declarações. Cada declaração inclui uma propriedade e um valor.</p>
+                <pre><code>
+                    seletor {
+                        propriedade: valor;
+                    }
+                </code></pre>
+                <ul>
+                    <li>Para estilizar elementos vamos sempre <strong>seguir alguns passos</strong>.</li>
+                    <li><strong>Escolher a tag</strong> (por meio do nome, classe ou id).</li>
+                    <li><strong>Abrir e fechar chaves</strong>, delimitando o espaço dos estilos do elemento.</li>
+                    <li>Escrever as <strong>regras de estilização</strong>.</li>
+                    <li>Todas as regras devem <strong>terminar com um ponto e vírgula</strong>(;).</li>
+                    <img src="img/foto-ex01-css.png" alt="Exemplo de parágrafo">
+                </ul>
+            </article>
+            <article id="formas-adicionar-css">
+                <h3>Formas de adicionar CSS</h3>
+                <ul>
+                    <li>Temos três formas muito utilizadas para inserir CSS em uma página:</li>
+                    <li><strong>Inline:</strong> utilizando o atributo <code>style</code> diretamente no elemento HTML. Onde o CSS fica na tag.</li>
+                    <li><strong>Interno:</strong> dentro de uma tag <code>&lt;style&gt;</code> no documento HTML. Onde o CSS fica no head da página.</li>
+                    <li><strong>Externo:</strong> vinculando um arquivo CSS externo usando a tag <code>&lt;link&gt;</code>. Onde o CSS fica em um arquivo externo.</li>
+                    <li>Está última forma é mais indicada, e devemos sempre tentar utilizá-la.</li>                    
+                </ul>
+            </article>
+            <article id="seletores-css">
+                <h3>Seletores de CSS</h3>
+                <p>Seletores são utilizados para selecionar elementos HTML que queremos estilizar. Exemplos incluem seletores de tag, classe, e ID.</p>
+                <ul>
+                    <li>Temos formas além das tags de selecionar elementos.</li>
+                    <li>Por <strong>classes</strong>: quando queremos afetar mais elementos com uma regra.</li>
+                    <li>Por <strong>id</strong>: quando queremos afetar um único elemento.</li>
+                    <li>Estas formas são referentes aos atributos <strong>class e id</strong>.</li>
+                    <li>Há uma convenção no HTML que <strong>não nos permite adicionar mais de um elemento com o mesmo id</strong> em uma página.</li>
+                </ul>
+            </article>
+            <article id="positions-css">
+                <h3>Positions do CSS</h3>
+                <p>O CSS permite definir o posicionamento dos elementos na página usando propriedades como <code>static</code>, <code>relative</code>, <code>absolute</code>, <code>fixed</code> e <code>sticky</code>.</p>
+                <ul>
+                    <li><strong>Fluxo do HTML:</strong> A posição dos elementos, seguindo a ordem das tags.</li>
+                    <li><strong>Static:</strong> Posição padrão dos elementos.</li>
+                    <li><strong>Relative:</strong> Posição que podemos modificar as direções.</li>
+                    <li><strong>Absolute:</strong> Pode se referenciar pela tela ou por algum elemento.</li>
+                    <li><strong>Fixed:</strong> Posição que fixa o elemento na tela.</li>
+                    <li><strong>Sticky:</strong> Uma mistura de fixed com relative.</li>
+                </ul>
+                <a href="positions.html">Exemplos</a>
+            </article>
+            <article id="grid-css">
+                <h3>Grid CSS</h3>
+                <p>O Grid Layout é um sistema bidimensional para criar layouts de grade complexos. Ele utiliza contêineres e itens de grade.</p>
+                <ul>
+                    <li>Um <strong>recurso do CSS</strong> que permite desenvolver layouts em <strong>grid</strong>.</li>
+                    <li>É um valor da propriedade <strong>display</strong>.</li>
+                    <li>Trabalhos com um <strong>container</strong> que contém itens.</li>
+                    <li><strong>O container controla a disposição dos itens</strong>, mas os itens também podem alterar o seu posicionamento.</li>
+                    <li>Os grids são divididos em <strong>colunas e linhas</strong>.</li>
+                    <li>Podemos inserir um espaçamento entre as áreas com o recurso de <strong>gap</strong>.</li>
+                </ul>
+                <a href="grid.html">Exemplos</a>
+            </article>
+            <article id="flexbox">
+                <h3>FlexBox</h3>
+                <p>O Flexbox Layout é um modelo unidimensional para distribuir itens em uma interface, oferecendo controle sobre o alinhamento e a distribuição do espaço entre os itens.</p>
+                <ul>
+                    <li><strong>É um valor para a regra display do CSS</strong>, que modifica a disposição dos elementos.</li>
+                    <li>Utilizamos desta maneira - <strong>display: flex.</strong></li>
+                    <li>O <strong>flex precisa ser inserido em um container</strong>, que contém elementos.</li>
+                    <li>Há duas direções: <strong>row e column</strong></li>
+                    <li>Podemos também alterar o posicionamento de um item <strong>individualmente</strong>.</li>
+                    <li>É possível alterar o <strong>alinhamento dos elementos</strong>, a até a <strong>ordem</strong></li>
+                </ul>
+                <a href="flexbox01.html">Exemplos</a>
+            </article>
+        </section>
+
+        <section id="mediaquery">
+            <h2>MediaQuery</h2>
+            <p>Media Queries são utilizadas para aplicar estilos diferentes para dispositivos diferentes, com base em características como largura da tela, altura, orientação, etc.</p>
+            <a href="mediaqueries.html">Exemplos</a>
+            <pre><code>
+                @media (max-width: 600px) {
+                    .container {
+                        flex-direction: column;
+                    }
+                }
+            </code></pre>
+            
+        </section>
+    </main>
+
+    <aside>
+        
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Estudos de HTML e CSS</p>
+    </footer>
+</body>
+</html>

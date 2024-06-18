@@ -1,0 +1,49 @@
+@charset "UFT-8";
+
+/* Alinhamento */
+
+.container {
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 40vh;
+    /* horizontal */
+    justify-content: center;
+    /* vertical */
+    align-items: end;
+}
+
+.container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+#botao {
+    padding: 10px 0px;
+    width: 100px;
+    display: inline-block;
+    padding: 5px;
+}
+
+#botao a {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: blue;
+    color: #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 104);
+}
