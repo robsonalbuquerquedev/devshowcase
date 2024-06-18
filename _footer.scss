@@ -2,6 +2,9 @@ $cor1: #333;
 $cor2: #000;
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: $cor1;
     color: $cor2;
     text-align: center;
