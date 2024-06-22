@@ -1,0 +1,41 @@
+$cor1: #333;
+$cor2: #fff;
+
+$franklin: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$gill: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+footer {
+    padding: 1rem;
+    background-color: $cor1;
+    box-shadow: 0 .3rem .3rem .1rem rgba(0, 0, 0, 0.8);
+    color: $cor2;
+    font-size: 1.7rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    p {
+        font-family: $gill;
+    }
+    #link-site-aprendamais {
+        font-family: $franklin;
+        color: $cor2;
+        text-shadow: 0 .3rem .1rem rgba(0, 0, 0, 0.2);
+    }
+    .redes-sociais {
+        margin-top: 0.3rem;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        img {
+            width: 5rem;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+        }
+        img:hover {
+            border: .2rem solid rgba(255, 255, 255, 0.637);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+            transition: transform .3s border 1s;
+        }
+    }
+}

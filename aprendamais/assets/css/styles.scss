@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import "_header";
+@import "_main";
+@import "_section";
+@import "_footer";
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    line-height: 1.6;
+}
+
+@media screen and (max-width:431px) {
+    img {
+        width: 30rem;
+    }
+    #flags {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        img {
+            width: 10rem;
+        }
+    }
+    .glossary {
+        flex-direction: column;
+    }
+    .btn-next {
+        img {
+            width: 10rem;
+        }
+    }
+}

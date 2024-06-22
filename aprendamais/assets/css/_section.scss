@@ -1,0 +1,105 @@
+$cor1: #333;
+$cor2: #f1f1f1;
+$cor3: #3277BA;
+
+$lucida: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$segoe: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$trebuchet: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$arial: Arial, Helvetica, sans-serif;
+$verdana: Verdana, Geneva, Tahoma, sans-serif;
+$georgia: Georgia, 'Times New Roman', Times, serif;
+$times: 'Times New Roman', Times, serif;
+
+section {
+    h2 {
+        font-family: $lucida;
+        border-bottom: .2rem solid $cor1;
+        padding-bottom: .5rem;
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-family: $lucida;
+        padding-top: .5rem;
+        font-size: 1.8rem;
+    }
+    p {
+        font-family: $segoe;
+        font-size: 1.6rem;
+    }
+    strong {
+        text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.2);
+    }
+    .dialogue {
+        font-family: $trebuchet;
+        font-size: 1.5rem;
+    }
+    .content-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        h4 {
+            font-family: $arial;
+            font-size: 1.5rem;
+            text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.2);
+        }
+        table {
+            font-family: $verdana;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            text-align: center;
+            th ,td {
+                border: .1rem solid $cor1;
+                padding: .5rem;
+            }
+        }
+    }
+    .highlights {
+        padding: 1rem;
+        overflow-x: auto;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        font-size: 1.5rem;
+        span {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 1rem;
+            background-color: $cor2;
+            color: $cor3; 
+        }
+        .equal {
+            font-family: $georgia;
+            background-color: $cor4;
+            color: $cor1;
+        }
+    }
+    .bold {
+        font-weight: bold;
+    }
+    ul {
+        font-size: 1.6rem;
+    }
+    .content-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .content-img.flags {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .highlights {
+        .important, .bold {
+            font-family: $times;
+            color: $cor1;
+        }
+    }
+    .glossary {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,13 @@
+$cor1: #fff;
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    .btn-next {
+        background-color: $cor1;
+        align-self: end;
+        cursor: pointer;
+        margin-bottom: 10rem;
+    }
+}

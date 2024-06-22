@@ -1,0 +1,61 @@
+$cor1: #333;
+$cor2: #fff;
+$cor3: #f9f9f9;
+$cor4: #f1f1f1;
+
+$franklin: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$gill: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+header {
+    background: $cor1;
+    box-shadow: 0 .3rem .3rem .1rem rgba(0, 0, 0, 0.8);
+    color: $cor2;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+        font-family: $franklin;
+        font-size: 3rem;
+        text-shadow: 0 .3rem .1rem rgba(0, 0, 0, 0.5);
+    }
+    .dropdown {
+        position: relative;
+        .dropbtn {
+            font-family: $franklin;
+            background-color: $cor1;
+            text-shadow: 0 .3rem .1rem rgba(0, 0, 0, 0.5);
+            color: $cor2;
+            padding: 1rem;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: $cor3;
+            box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            div {
+                padding: 1rem;
+                display: flex;
+                flex-flow: column wrap;
+                gap: .5rem;
+                a {
+                    font-family: $gill;
+                    font-size: 1.5rem;
+                    color: $cor1;
+                    text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.2);
+                    text-decoration: none;
+                }
+            }
+        }
+        .dropdown-content a:hover {
+            background-color: $cor4;
+        }
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
