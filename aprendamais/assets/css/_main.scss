@@ -4,10 +4,14 @@ main {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    .btn-next {
+    .btn {
         background-color: $cor1;
         align-self: end;
         cursor: pointer;
         margin-bottom: 10rem;
+    }
+    .botoes {
+        display: flex;
+        justify-content: space-between;
     }
 }

@@ -86,7 +86,7 @@ section {
         align-items: center;
         gap: 1rem;
     }
-    .content-img.flags {
+    .content-img.photo {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
@@ -101,5 +101,11 @@ section {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .items-professions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
     }
 }

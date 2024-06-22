@@ -22,17 +22,17 @@
     img {
         width: 30rem;
     }
-    #flags {
+    #photo {
         flex-wrap: nowrap;
         overflow-x: auto;
         img {
             width: 10rem;
         }
     }
-    .glossary {
+    .glossary, .items-professions {
         flex-direction: column;
     }
-    .btn-next {
+    .btn {
         img {
             width: 10rem;
         }
