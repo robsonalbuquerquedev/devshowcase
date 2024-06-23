@@ -92,6 +92,8 @@ section {
         justify-content: center;
     }
     .highlights {
+        display: flex;
+        flex-wrap: wrap;
         .important, .bold {
             font-family: $times;
             color: $cor1;
@@ -102,7 +104,7 @@ section {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .items-professions {
+    .items {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
