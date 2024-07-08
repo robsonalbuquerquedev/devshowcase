@@ -1,0 +1,97 @@
+$cor1: #4CAF50;
+$cor2: #fff;
+$cor3: #3e8e41;
+$cor4: #f1f1f1;
+
+$courierNew: 'Courier New', Courier, monospace;
+$franklinGothic: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$trebuchetMS: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+
+header {
+    background-color: $cor1;
+    box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+    color: $cor2;
+    padding: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h1 {
+        font-family: $courierNew;
+        font-size: 3rem;
+        text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.5);
+    }
+
+    .search {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+
+        input {
+            padding: 1rem;
+            border-radius: .7rem;
+        }
+        button {
+            width: 10.3rem;
+            height: 4.3rem;
+            border-radius: .7rem;
+            font-size: 1.7rem;
+            background-color: $cor2;
+            color: $cor1;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: $cor3;
+            color: $cor2;
+        }
+    }
+
+    nav {
+        .dropdown {
+            .dropbtn {
+                font-family: $franklinGothic;
+                font-size: 2.5rem;
+                text-decoration: none;
+                color: $cor2;
+                text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.4);
+            }
+            .dropdown2 {
+                padding: 1rem;
+                position: relative;
+                .content-dropdown {
+                    position: absolute;
+                    left: 0;
+                    min-width: 21rem;
+                    background: $cor3;
+                    box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+                    display: flex;
+                    flex-flow: column wrap;
+                    a {
+                        display: block;
+                        width: 100%;
+                        padding: .7rem;
+                        color: $cor2;
+                        font-family: $trebuchetMS;
+                        font-size: 1.4rem;
+                        text-decoration: none;
+                        text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.2);
+                        text-align: center;
+                    }
+                    a:hover {
+                        background-color: $cor1;
+                        border-top: .3rem solid $cor4;
+                    }
+                }
+            }
+        }
+        .dropdown:hover {
+            .dropbtn:hover {
+                border-top: .3rem solid $cor4;
+            }
+            .dropdown2 {
+                display: block;
+            }
+        }
+    }
+}

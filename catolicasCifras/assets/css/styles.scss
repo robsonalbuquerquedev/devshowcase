@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import "_header";
+@import "_main";
+
+$arial: Arial, Helvetica, sans-serif;
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: $arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.dropdown2 {
+    display: none;
+}
+
+@media screen and (max-width:775px) {
+    header {
+        flex-flow: column wrap;
+    }
+}

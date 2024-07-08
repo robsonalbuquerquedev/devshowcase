@@ -1,0 +1,22 @@
+$cor1: #4CAF50;
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 1rem;
+
+    h2 {
+        color: $cor1;
+        font-size: 3rem;
+        text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.1);
+    }
+    P {
+        font-size: 1.7rem;
+    }
+    #search-results {
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+}
