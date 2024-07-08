@@ -4,6 +4,7 @@
 @import "_main";
 
 $arial: Arial, Helvetica, sans-serif;
+$cor1: #f1f1f1;
 
 :root {
     font-size: 62.5%;
@@ -18,6 +19,10 @@ $arial: Arial, Helvetica, sans-serif;
     border: none;
 }
 
+body {
+    background: $cor1;
+}
+
 .dropdown2 {
     display: none;
 }
@@ -25,5 +30,21 @@ $arial: Arial, Helvetica, sans-serif;
 @media screen and (max-width:775px) {
     header {
         flex-flow: column wrap;
+    }
+}
+
+@media screen and (max-width:431px) {
+    main {
+        #search-results {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media screen and (max-width:376px) {
+    main {
+        #search-results {
+            font-size: 1rem;
+        }
     }
 }
