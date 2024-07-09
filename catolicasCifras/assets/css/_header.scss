@@ -21,6 +21,11 @@ header {
         font-family: $courierNew;
         font-size: 3rem;
         text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.5);
+
+        a {
+            text-decoration: none;
+            color: $cor2;
+        }
     }
 
     .search {
