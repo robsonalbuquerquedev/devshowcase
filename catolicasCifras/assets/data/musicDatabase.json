@@ -2,11 +2,265 @@
     {
         "title": "Sob a Jerusalém",
         "category": "natal",
+        "key": "D",
         "options": {
             "option1": "⬇ ⬇⬆⬇⬆",
             "option2": "⬇ ⬇⬇⬆",
             "fingerpicking": "P - I - M e A - I"
         },
-        "content": "<pre>\n\n<b>Tom: D</b>\n\n   D  A          Bm                      G        A        D\nSob a Jerusalém, virgem oferente, sem igual\n\n  F#                    Bm                     E                                A \nvai, apresenta o Pai teu menino luz que chegou no natal\n\n D    A                Bm                                 G     A        D  \nE    junto à sua cruz, quando Deus morrer fica de pé\n\n F#                  Bm                   E               A                      D\nSim, ele te salvou, mas ofereceste por nós com toda a fé\n\nA      D    A              Bm                 G     A        D\n     Nós vamos renovar este sacrifício de Jesus\n\n    F#                   Bm                      E                                  A\nMorte e ressurreição: vida que brotou de sua oferta na cruz\n\n    D     A                Bm                   G            A       D\nMãe, vem nos ensinar a fazer da vida uma oblação\n\n   F#                        Bm                 E             A               D\nCulto agradável a Deus é fazer oferta no próprio coração\n</pre>"
+        "content": "<pre>\n\n    D  A          Bm                      G        A        D\nSob a Jerusalém, virgem oferente, sem igual\n\n  F#                    Bm                     E                                A \nvai, apresenta o Pai teu menino luz que chegou no natal\n\n D    A                Bm                                 G     A        D  \nE    junto à sua cruz, quando Deus morrer fica de pé\n\n F#                  Bm                   E               A                      D\nSim, ele te salvou, mas ofereceste por nós com toda a fé\n\nA      D    A              Bm                 G     A        D\n     Nós vamos renovar este sacrifício de Jesus\n\n    F#                   Bm                      E                                  A\nMorte e ressurreição: vida que brotou de sua oferta na cruz\n\n    D     A                Bm                   G            A       D\nMãe, vem nos ensinar a fazer da vida uma oblação\n\n   F#                        Bm                 E             A               D\nCulto agradável a Deus é fazer oferta no próprio coração\n</pre>"
+    },
+    {
+        "title": "Consagração à Nossa Senhora",
+        "category": "marianas",
+        "key": "G",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P - I - M e A - I"
+        },
+        "content": "<pre>\n\nG                                    Bm\nÓ, minha senhora e também minha mãe\n\nAm            D                  G                 Em\nEu me ofereço inteiramente todo a vós\n\nAm        D           G              Em        Am          D                   G\nE em prova da minha devoção, eu hoje vos dou meu coração\n\nD              G                                                 Bm\n        Consagro a vós meus olhos, meus ouvidos, minha boca\n\n Am              D                    G                E\nTudo o que sou desejo que a vós pertença\n\n   Am                  D            G                  Em\nIncomparável mãe, guardai-me, defendei-me\n\n           Am                    D                   G\nComo coisa e propriedade vossa, amém!\n\nEm             Am                    D                     G\n       Como coisa e propriedade vossa, amém!\n</pre>"
+    },
+    {
+        "title": "Já chegou! Já chegou!",
+        "category": "grupo_oracao",
+        "key": "G",
+        "options": {
+            "rhythm": "⬇ ⬆⬇⬇⬆"
+        },
+        "content": "<pre>\n\n             G               D                                       G\nJá chegou! Já chegou! Espírito Santo já chegou!\n\n             G               D                                       G\nJá chegou! Já chegou! Espírito Santo já chegou!\n\n                                                                           D\nEu sinto em minhas mãos, eu sinto em meus pés\n\n                                                                  Em\nEu sinto em minh'alma e em todo o meu ser\n\n                                                                           D\nEu sinto em minhas mãos, eu sinto em meus pés\n\n                                                                    G\nEu sinto em minh'alma e em todo o meu ser\n\n        G                       D              G                                          D               G\nAquele que caminhou sobre as águas. Aquele que caminhou sobre as águas\n\n              D                     G                   D                      G\nEstá aqui, está ao meu lado. Está aqui, está ao meu lado\n\n                      D                       G                         D                        G\nComo um raio caindo sobre mim. Como um raio caindo sobre mim\n\n                                                   D                                                         G\nMe queima, me queima, me queima! Me queima, me queima, me queima!\n</pre>"
+    },
+    {
+        "title": "Dança da Amizade",
+        "category": "grupo_oracao",
+        "key": "C",
+        "options": {
+            "refrain_rhythm": "⬇ ⬆⬇⬇⬆",
+            "verse_rhythm": "⬇⬆"
+        },
+        "content": "<pre>\n\n                C                                   G\nA nossa dança é a dança da amizade\n\n          G                           C\nÉ alegria para lá e para cá\n\n     C           G                   C\nLaiá laiá laiálá laiá laiá laiálá\n\n     C           G                       C\nLaiá laiá laiálá laiá laiá laiálá\n</pre>"
+    },
+    {
+        "title": "Passa Fogo",
+        "category": "grupo_oracao",
+        "key": "D",
+        "options": {
+            "rhythm": "⬇ ⬆⬇⬇⬆"
+        },
+        "content": "<pre>\n\n            D                                G                D                                 G\nPassa fogo no meu braço agora, passa fogo no meu braço agora\n\n            D                               G                  D      G\nPassa fogo no meu braço agora, ó, Senhor!\n\n            D                                  G                D                                   G\nPassa fogo na minha perna agora, passa fogo na minha perna agora\n\n            D                                   G                 D    G\nPassa fogo na minha perna agora, ó, Senhor!\n\n            D                          G                D                         G\nPassa fogo na cabeça agora, passa fogo na cabeça agora\n\n            D                           G                D    G\nPassa fogo na cabeça agora, ó, Senhor!\n\n            D                           G              D                           G\nPassa fogo no meu coração, passa fogo no meu coração\n\n            D                           G               D     G\nPassa fogo no meu coração, ó, Senhor!\n\n                   A\nEu disse: braço, perna, cabeça e coração\n\n   G\nBraço, perna, cabeça e coração\n\n    A                                         D\nBraço, perna, cabeça e coração\n\n                D                          G                    D                          G\nEstou sentindo sua força agora, estou sentindo sua força agora\n\n                D                          G                D     G\nEstou sentindo sua força agora, ó, Senhor!\n\n                D                           G                   D                         G\nEstou sentindo sua força agora, estou sentindo sua força agora\n\n                D                           G               D     G\nEstou sentindo sua força agora, ó, Senhor!\n\n                   A\nEu disse: braço, perna, cabeça e coração\n\n   G\nBraço, perna, cabeça e coração\n\n   A                                          D\nBraço, perna, cabeça e coração\n\n                   A\nEu disse: braço, perna, cabeça e coração\n\n   G\nBraço, perna, cabeça e coração\n\n   A                                          D\nBraço, perna, cabeça e coração\n</pre>"
+    },
+    {
+        "title": "A alegria está no coração",
+        "category": "grupo_oracao",
+        "key": "D",
+        "options": {
+            "rhythm": "⬇⬇⬆⬆⬇⬆"
+        },
+        "content": "<pre>\n\nD                Bm                           G                             A\nA alegria está no coração de quem já conhece a Jesus\n\nD                   Bm                                G                       A\nA verdadeira paz só tem aquele que já conhece a Jesus\n\nD                                D7                G                         Gm\nO sentimento mais precioso que vem do nosso Senhor\n\n            D              A                                        D     A\nÉ o amor que só tem quem já conhece a Jesus\n\n                D                           Bm                           G\nPosso pisar numa tropa e saltar as muralhas. Aleluia! Aleluia!\n\nD                                                           G\nEle é a rocha da minha salvação, com Ele não há mais condenação\n\n                D                           Bm                           G\nPosso pisar numa tropa e saltar as muralhas. Aleluia! Aleluia!\n\n      D    Bm     G       A       D     Bm     G       A\nAlelu----ia, alelu-----ia. Alelu----ia, alelu-----ia\n\nD                              D7                G                            Gm\nO sentimento mais precioso que vem do nosso Senhor\n\n            D              A                                        D\nÉ o amor que só tem quem já conhece a Jesus\n</pre>"
+    },
+    {
+        "title": "Eu quero estar em tuas mãos",
+        "category": "grupo_oracao",
+        "key": "D",
+        "options": {
+            "rhythm": "⬇⬇⬆⬆⬇⬆"
+        },
+        "content": "<pre>\n\n          D                           Bm                       G                A        D\nEu quero estar em tuas mãos, ó Pai, eu quero depender de Ti\n\n          D                           Bm                       G                A        D\nEu quero estar em tuas mãos, ó Pai, eu quero depender de Ti\n\n                  G        F#m               G               A         D\nQuero andar no Espírito, eu quero depender de Ti\n\n                  Bm     F#m               G                 A        D\nQuero louvar no Espírito, eu quero depender de Ti\n\n          D                           Bm                       G                A        D\nEu quero estar em tuas mãos, ó Pai, eu quero depender de Ti\n\n          D                           Bm                       G                A        D\nEu quero estar em tuas mãos, ó Pai, eu quero depender de Ti\n\n                 G         F#m             G                A         D\nQuero amar no Espírito, eu quero depender de Ti\n\n              Bm        F#m             G                 A         D\nQuero viver no Espírito, eu quero depender de Ti\n\n          D                           Bm                       G                A        D\nEu quero estar em tuas mãos, ó Pai, eu quero depender de Ti\n\n          D                           Bm                       G                A        D\nEu quero estar em tuas mãos, ó Pai, eu quero depender de Ti\n</pre>"
+    },
+    {
+        "title": "Vem, vem, vem, Espírito Santo",
+        "category": "grupo_oracao",
+        "key": "G",
+        "options": {
+            "rhythm": "⬇⬇⬆⬆⬇⬆"
+        },
+        "content": "<pre>\n\n   G            Em                  C                                         D                          G     D\nVem, vem, vem, Espírito Santo, transforma a minha vida, quero renascer\n\n   G            Em                  C                                         D                          G\nVem, vem, vem, Espírito Santo, transforma a minha vida, quero renascer\n\nG7                             C                         D\n       Quero abandonar-me em teu amor\n\n             Bm                                 Em\nEncharcar-me em teus rios, Senhor\n\n           Am              D                        G\nDerrubar as barreiras em meu coração\n\nG7                             C                         D\n       Quero abandonar-me em teu amor\n\n             Bm                                 Em\nEncharcar-me em teus rios, Senhor\n\n           Am              D                        G\nDerrubar as barreiras em meu coração\n\n</pre>"
+    },
+    {
+        "title": "O Senhor é rei",
+        "category": "grupo_oracao",
+        "key": "Em",
+        "options": {
+            "option1": "⬇⬇⬆⬆⬇⬆",
+            "option2": "⬇⬇ ⬆⬇⬆"
+        },
+        "content": "<pre>\n\nEm                           G                                          D\n      O Senhor é Rei,    o Senhor é meu pastor e rei\n\nEm                           G                                          D\n      O Senhor é Rei,    o Senhor é meu pastor e rei\n\nEm                                    G\n     O Senhor está no céu,   o Senhor está no mar\n\nD                   C               D\n     Na extensão do infinito\n\nEm                                    G\n     O Senhor está no céu,   o Senhor está no mar\n\nD                   C               D\n     Na extensão do infinito\n\nG                       D                   C                Am           D\n     Está no céu,   está no mar,   na extensão do infinito\n\nG                       D                   C                Am           D\n     Está no céu,   está no mar,   na extensão do infinito\n\nEm                               G\n     Quando eu vacilar,    eu não temerei\n\nD                       C              D\n     Pois o Senhor está comigo\n\nG                         D                   C               Am                 D\n     Está em mim,     está em ti,    na extensão do teu sorriso\n\nG                         D                   C               Am                 D\n     Está em mim,     está em ti,    na extensão do teu sorriso\n</pre>"
+    },
+    {
+        "title": "Derrama o teu amor aqui",
+        "category": "grupo_oracao",
+        "key": "G",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬆⬆⬇⬆⬆ ⬇⬆⬇⬆"
+        },
+        "content": "<pre>\n\nG                                 D        Em          C\nSenhor, eu quero obedecer      a tua voz\n\nG                             D      Em                C\nDerrama o teu Espírito sobre todos nós\n\nG                              D            Em             C\nSenhor, eu quero mergulhar,     me comprometer\n\nG                   D        Em                 C\n  Entrar na intimidade do teu coração\n                                          G\n derrama em nós tua unção\n\n                                     D\nDerrama o teu amor aqui\n\n                                    Em\nderrama o teu amor aqui\n\n                              C\nFaz chover sobre nós água viva\n\nG                                     D\n  Derrama o teu amor aqui\n\n                                    Em\nderrama o teu amor aqui\n\n                              C\nFaz chover sobre nós água viva\n\nEm                    D         Em    D   Em\nUma Igreja renovada\n\nEm                     D         Em   D   Em\npovo santo reunido\n\nEm                     D         Em   D   Em\nFamílias restauradas\n\nEm                                C\npelo poder do teu Espírito\n\nG                                     D\n  Derrama o teu amor aqui\n\n                                    Em\nderrama o teu amor aqui\n\n                              C\nFaz chover sobre nós água viva\n\nG                                     D\n  Derrama o teu amor aqui\n\n                                    Em\nderrama o teu amor aqui\n\n                              C                  G\nFaz chover sobre nós água viva\n</pre>"
+    },
+    {
+        "title": "Chuva de graça",
+        "category": "grupo_oracao",
+        "key": "C",
+        "options": {
+            "option1": "⬇⬇⬆⬆⬇⬆",
+            "option2": "⬇⬇⬆⬆⬇"
+        },
+        "content": "<pre>\n\nC             G            Am         F\nOoohhh Ooohhh Ooohhh Ooohhh\n\nC             G            Am         F\nOoohhh Ooohhh Ooohhh Ooohhh\n\nC                             G\nHá uma chuva de graça aqui\n\nAm                      F\nE está chovendo sobre todos nós\n\nC                           G                               F\nE quem mais se entregar, mais se molhará\n\nC                         G\nHá uma semente pra germinar\n\nAm                      F\nE muitos frutos a se produzir\n\nC                          G                             F\nNa terra do coração derrama tua graça\n\n                    C                      G\nChuva de graça pedimos a ti\n\n                    Am                     F\nChuva de graça derrama em nós\n\n               C                   G            F\nChuva de graça neste lugar, derrama!\n\n                    C                      G\nChuva de graça pedimos a ti\n\n                    Am                     F\nChuva de graça derrama em nós\n\n               C                   G            F\nChuva de graça neste lugar, derrama!\n\nC             G            Am         F\nOoohhh Ooohhh Ooohhh Ooohhh\n\nC             G            Am         F\nOoohhh Ooohhh Ooohhh Ooohhh\n</pre>"
+    },
+    {
+        "title": "Move-te em mim",
+        "category": "grupo_oracao",
+        "key": "D",
+        "options": {
+            "rhythm": "⬇⬇⬆⬆⬇⬇⬆⬇⬆",
+            "fingerpicking": "P e M – I - A – I"
+        },
+        "content": "<pre>\n\n        D                      G                   D   G\nO Espírito de Deus está neste lugar\n\n        D \nO Espírito de Deus\n      \n        G                  A\nSe move neste lugar\n\n         D                    G \nEstá aqui para consolar\n\n          D                G\nEstá aqui para libertar\n\n           D \nEstá aqui para guiar\n\n        A                                D\nO Espírito de Deus está aqui\n\n                         G   A\nMove-te em mim\n\n                       D\nMove-te em mim\n\n                        G                    A\nToca minha mente e meu coração\n\n                      F#m             Bm\nEnche minha vida do teu amor\n\n                      Em                  A\nMove-te em mim Deus Espírito\n\n                        D    G\nMove-te em mim\n</pre>"
+    },
+    {
+        "title": "O céu se abre",
+        "category": "grupo_oracao",
+        "key": "B",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬆⬆⬇⬆⬆"
+        },
+        "content": "<pre>\n\nB9                                 D#m\nHoje o céu se abre pra derramar\n\n                E                     B           A       F#\nSobre os corações toda a graça do Pai\n\nB9                                D#m\nEu também quero me derramar\n\n                        E          C#m\nDe todo o meu coração\n\n                 A        F#\nnos braços do Pai\n\nB9                   E                     G#m\nVem, Espírito Santo, com teu poder\n\n      F#                 E\nTocar meu ser, fluir em mim\n\nB9                   E                     G#m\nVem, Espírito Santo, com teu poder\n\n      F#                 E\nTocar meu ser, fluir em mim\n\nG#m                   E\nHoje eu posso ser um novo homem\n\n        B9                      F#\nPelo Teu poder renascer\n\nG#m                   E\nHoje eu posso ser um novo homem\n\n        B9                      F#\nPelo Teu poder renascer\n\nB9                   E                     G#m\nVem, Espírito Santo, com teu poder\n\n      F#                 E\nTocar meu ser, fluir em mim\n\nB9                   E                     G#m\nVem, Espírito Santo, com teu poder\n\n      F#                 E             B9\nTocar meu ser, fluir em mim\n</pre>"
+    },
+    {
+        "title": "Eu navegarei",
+        "category": "grupo_oracao",
+        "key": "Am",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬆⬆⬇ ⬆⬆⬇ ⬇⬆"
+        },
+        "content": "<pre>\n\n                Am                              G                    Dm                                  E\nEu navegarei no oceano do Espírito e ali adorarei ao Deus do meu amor\n\n                Am                              G                    Dm                                  E\nEu navegarei no oceano do Espírito e ali adorarei ao Deus do meu amor\n\n                  Am                                 G\nEspírito, Espírito, que desce como fogo\n\n                                   Dm                                E\nVem como em pentecostes, e enche-me de novo\n\n             Am                                  G\nEu adorarei ao Deus da minha vida\n\n                               Dm                                       E\nQue me compreendeu sem nenhuma explicação\n\n             Am                                  G\nEu adorarei ao Deus da minha vida\n\n                               Dm                                       E\nQue me compreendeu sem nenhuma explicação\n\n                  Am                                 G\nEspírito, Espírito, que desce como fogo\n\n                                   Dm                                E\nVem como em pentecostes, e enche-me de novo\n\n            Am                         G                           Dm                           E\nEu servirei ao meu Deus fiel, ao meu libertador, aquele que venceu\n\n            Am                         G                           Dm                           E\nEu servirei ao meu Deus fiel, ao meu libertador, aquele que venceu\n\n                  Am                                 G\nEspírito, Espírito, que desce como fogo\n\n                                   Dm                                E\nVem como em pentecostes, e enche-me de novo\n</pre>"
+    },
+    {
+        "title": "Espírito, enche a minha vida",
+        "category": "grupo_oracao",
+        "key": "C",
+        "options": {
+            "rhythm": "⬇ ⬇⬆⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n      C      Em   F                       G\nEspí----rito    enche a minha vida\n\n      C      Em   F                       G\nEspí----rito    enche a minha vida\n\nF                           G             Em                 Am\nEnche-me com o teu poder pois e ti eu quero ser\n\n    Dm   G                     C\nEspírito enche o meu ser\n\nC7   F                    G                  Em           Am    F              G           Am\n       As minhas mãos eu quero levan-----tar,    e em louvor te adorar\n\n     F            G                   Em          Am       Dm         G      C\nMeu coração eu quero derra------mar    diante do teu altar\n</pre>"
+    },
+    {
+        "title": "Sopra em nós",
+        "category": "grupo_oracao",
+        "key": "Am",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬇⬆⬆ ⬇⬇⬆⬇⬆",
+            "fingerpicking": "P e M – I - A – I"
+        },
+        "content": "<pre>\n\nAm                    G/B      C                       G/B\nMinh’alma tem sede de Ti, ó meu Deus\n\nAm                  G           F\nMinh’alma suspira por Ti\n\nAm                    G/B      C                       G/B\nMinh’alma tem sede de Ti, ó meu Deus\n\nAm                  G           F\nMinh’alma suspira por Ti\n\n                Am                  G                         F\nSopra em nós, sopra em nós, somos teus filhos oh Pai\n\n                    G\nEstamos reunidos em teu nome\n\n                Am                  G                         F\nSopra em nós, sopra em nós, somos teus filhos oh Pai\n\n                    G\nEstamos reunidos em teu nome\n\nC                        G/B                  Am\nÓ, vento impetuoso, vem nesse lugar\n\n                                F                            C\nFortalece o que é fraco com o teu poder\n\nC                                G/B                 Am\nRasgue o céu, ó meu Pai, sopra hoje aqui\n\n                       F        G\nVem Espírito Santo, vem\n\nC                        G/B                  Am\nÓ, vento impetuoso, vem nesse lugar\n\n                                F                            C\nFortalece o que é fraco com o teu poder\n\nC                                G/B                 Am\nRasgue o céu, ó meu Pai, sopra hoje aqui\n\n                       F        G\nVem Espírito Santo, vem\n</pre>"
+    },
+    {
+        "title": "Queima de novo",
+        "category": "grupo_oracao",
+        "key": "G",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬇ ⬆⬆⬇⬇ ⬇⬆"
+        },
+        "content": "<pre>\n\n                         Em                           C\nSarça que só queima, que não se apaga\n\n                      G                            D\nSomos tua igreja, viemos te adorar\n\n                     Em                  C\nNeste teu altar somos sacrifício\n\n                           G                D       Am    D\nVem nos consumir, estamos aqui, aqui\n\n                      G \nFoi a tua presença\n\n                               D \nQue nos trouxe aqui, Senhor\n\n                    C \nNão desistiremos\n\n                      Em           D\nDe te perseguir   até te encontrar\n\n                          G \nDiante da tua glória\n\n                       D\nNão podemos   ficar de pé\n\n                           C                      Em\nMostra quem tu és, vem nos visitar\n\n                    D                   G    Em\nNos fazer queimar de novo\n\nG\n  Manda teu fogo, manda teu fogo\n\nEm\n     Queima de novo, queima de novo\n</pre>"
+    },
+    {
+        "title": "Incendeia minha alma",
+        "category": "grupo_oracao",
+        "key": "C",
+        "options": {
+            "rhythm": "⬇ ⬇⬆⬇⬆",
+            "fingerpicking": "P – I – M – I – A – I – M – I"
+        },
+        "content": "<pre>\n\nC                G               Am                 G\n   Espírito Santo, vinde      falar em mim\n\nC                G               Am                 G\n   Espírito Santo, vinde      orar em mim\n\n                F                   Am\nVinde curar, vinde libertar\n\n                     Dm               G\nNossos corações de toda opressão\n\n                          F                     Am\nVinde transformar, vem incendiar\n\n                       D                 G\nTraz fogo do céu nesse lugar\n\n           C                                 Am\nIncendeia minha alma, incendeia minha alma\n\n            F               C              G\nIncendeia minha alma, Senhor\n</pre>"
+    },
+    {
+        "title": "Vem, Espírito",
+        "category": "grupo_oracao",
+        "key": "C",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n              C      F              C\nVem, Espírito,   vem, Espírito\n\n    Dm                  G\nSozinho eu não posso mais\n\n    Dm                  G\nSozinho eu não posso mais\n\n    Dm                  G                   C    G\nSozinho eu não posso mais viver\n\n         C                       Em           Am         Em\nEu quero amar, eu quero ser aquilo que Deus quer\n\n    Dm                  G\nSozinho eu não posso mais\n\n    Dm                  G\nSozinho eu não posso mais\n\n    Dm                  G                   C    G\nSozinho eu não posso mais viver\n</pre>"
+    },
+    {
+        "title": "Quero mergulhar nas profundezas",
+        "category": "grupo_oracao",
+        "key": "E",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬇⬆⬆ ⬇⬇⬆⬇⬆",
+            "fingerpicking": "P e M – I - A – I"
+        },
+        "content": "<pre>\n\nE                                             B9                A9                            E\n Quero mergulhar nas profunde----------zas do Espírito de Deus\n\n                             B9                 A9                     E\nE descobrir suas rique----------zas em meu coração\n\nE                                             B9                A9                            E\n Quero mergulhar nas profunde----------zas do Espírito de Deus\n\n                             B9                 A9                     E\nE descobrir suas rique----------zas em meu coração\n\nE           B9  A9           E\nÉ tão lindo,     tão simples\n\n        C#m         B9                  A9         B9           E\nBrisa leve, tão suave, doce Espírito Santo de Deus\n\n      C#m               B9               A9        B9           E\nTão suave, brisa leve, doce Espírito Santo de Deus\n</pre>"
+    },
+    {
+        "title": "Assim como a corsa",
+        "category": "grupo_oracao",
+        "key": "D",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n     D     A             Bm            G   Em    Bm      A\nAssim como uma corsa suspira pelas á----guas\n\n     D          A          Bm            G        A        D     A\nAssim suspira minh’alma, Espíri----to de Deus\n\n\n     D     A             Bm            G   Em    Bm      A\nAssim como uma corsa suspira pelas á----guas\n\n     D          A          Bm            G        A        D     A\nAssim suspira minh’alma, Espíri----to de Deus\n\n         D                              Bm\nÓ, ó, enche-me, Espírito, ó enche-me Espírito\n\n     G                   Em           A\nÓ, enche-me Espírito de Deus\n\n\n         D                              Bm\nÓ, ó, enche-me, Espírito, ó enche-me Espírito\n\n     G                   Em           A\nÓ, enche-me Espírito de Deus\n</pre>"
+    },
+    {
+        "title": "Filho de Davi",
+        "category": "grupo_oracao",
+        "key": "D",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬇⬆⬆ ⬇⬇⬆⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n                  D                                A\nMe contaram que o Senhor ia passar\n\n              Em\nE que havia uma chance\n\n              A\nDe eu poder enxergar\n\n                 D                        A\nMe disseram que tinhas poder\n\n           Em\nPra ressuscitar e fazer\n\n            A\no paralítico andar\n\nBm                              F#m\n  Renasceu dentro de mim a fé \n\nG                                        A\n  Que há muito eu já não tinha\n\nBm                               F#m\n  Eu senti meu coração arder\n\nG                                Em                 A\n E eu gritei para o Senhor me responder\n\nD                       A         Bm\n Jesus filho de Davi me cura\n\nG                 D\nÉs o santo de Israel\n\n                             A                Bm\nDiante de ti a tempestade se cala\n\nG\nMeu Deus honra a minha fé\n\nD                       A         Bm\n Jesus filho de Davi me cura\n\nG                 D\nÉs o santo de Israel\n\n                             A                Bm\nDiante de ti a tempestade se cala\n\nG\nMeu Deus honra a minha fé\n\n                                    A\nEu sei o que o Senhor tem pra mim\n\nG                                                           A\nTuas promessas não vão deixar de se cumprir\n\nF#  Bm                                  E\n Eu sei, teu Espírito está agindo em mim, Jesus!\n</pre>"
+    },
+    {
+        "title": "Renova-me",
+        "category": "grupo_oracao",
+        "key": "D",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n      D        G         A       D\nRenova-me, Senhor Jesus\n\nG               D         A\n  Já não quero ser igual\n\n   D        G         A       D\nRenova-me, Senhor Jesus\n\nG               D              A\n  Põe em mim seu coração\n\n              D           F#m    Bm\nPorque tudo que há dentro de mim\n\nG         Em                A\n  Necessita ser mudado, Senhor\n\n              D           F#m                Bm\nPorque tudo que há dentro do meu coração\n\nEm         A                D     A\n    Necessita mais de ti\n</pre>"
+    },
+    {
+        "title": "Cura, Senhor",
+        "category": "grupo_oracao",
+        "key": "C",
+        "options": {
+            "rhythm": "⬇ ⬇⬆⬇⬆",
+            "fingerpicking": "P – I – M – I – A – I – M – I"
+        },
+        "content": "<pre>\n\n    C                         G                  Am\nVamos, Jesus, passear na minha vida\n\n       F                         G                             C    C7\nQuero voltar aos lugares em que fiquei só\n\n       F                       G     Em                              Am\nQuero voltar lá contigo, vendo que estavas comigo\n\n    Dm                       G                    C\nQuero sentir teu amor a me embalar\n\nC7     F                             G      Em                           Am\n      Cura, Senhor, onde dói.   Cura, Senhor, bem aqui\n\nDm                          G                    C\nCura, Senhor, onde eu não posso ir\n\nC7     F                             G      Em                           Am\n      Cura, Senhor, onde dói.   Cura, Senhor, bem aqui\n\nDm                          G                    C\nCura, Senhor, onde eu não posso ir\n\n     C                                  G               Am\nQuando a lembrança me faz adormecer\n\n  F                                     G                          C     C7\nSabes que a espada da dor entra em meu ser\n\n  F                                G        Em                         Am\nTu me carregas nos braços, levas-me com teu abraço\n\nDm                               G                 C\nSinto minha alma chorar junto de ti\n\n  C                                           G             Am\nTantas lembranças que eu quero esquecer\n\n   F                                       G                            C     C7\nDeixam um vazio em minh’alma e em meu viver\n\n   F                                 G    Em                           Am\nToma, Senhor, meu espaço, te entrego todo cansaço\n\n    Dm                              G                      C\nQuero acordar com tua paz a me aquecer\n\nC7     F                             G      Em                           Am\n      Cura, Senhor, onde dói.   Cura, Senhor, bem aqui\n\nDm                          G                    C\nCura, Senhor, onde eu não posso ir\n\nC7     F                             G      Em                           Am\n      Cura, Senhor, onde dói.   Cura, Senhor, bem aqui\n\nDm                          G                    C\nCura, Senhor, onde eu não posso ir\n</pre>"
+    },
+    {
+        "title": "Faz um milagre em mim",
+        "category": "grupo_oracao",
+        "key": "D",
+        "options": {
+            "rhythm": "⬇ ⬇⬆⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\nD                    A                       Bm           G                         D\n    Como Zaqueu, eu quero subir o mais alto que eu puder\n\n                 A                   Bm           G                                D\nSó pra te ver, olhar para ti e chamar sua atenção para mim\n\n                       G                D                         G\nEu preciso de ti, Senhor,       eu preciso de ti, ó Pai\n\nD                              Em                        C              G                       A\n    Sou pequeno demais, me dá a tua paz, largo tudo pra te seguir\n\nD                            A                             Bm\n    Entra na minha casa entra na minha vida\n\n                                      G             A               D\nMexe com minha estrutura, sara todas as feridas\n\n                                    A                                          Bm\nMe ensina a ter santidade, quero amar somente a ti\n\n                                                          G  A                              D\nPorque o Senhor é o meu bem maior, faz um milagre em mim\n</pre>"
+    },
+    {
+        "title": "Minha essência",
+        "category": "grupo_oracao",
+        "key": "C",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬆⬆"
+        },
+        "content": "<pre>\n\nC                             F                  Am\nVim até aqui derramar o meu passado em ti\n\n                                           Dm                                            G\nVim banhar os pés que andaram por aí sem carinho receber\n\n   C                        F                     Am\nHoje estou aqui não por que mereço, eu sei\n\n                            Dm                                                             G\nPois tu sabes por onde eu andei, conheces bem o meu perfume\n\n            Am                                                       Em\nMas tu sabes também que o meu choro é sincero, porém\n\n                                         F                       Dm                                  G\nNão tenho nada a oferecer, meu Senhor,      mas te dou a minha vida\n\n                    C             F                  Am\nÉ tudo que tenho, recebe o meu nada\n\n                   F      Dm          G\nRefaz a morada,      habita em mim\n\n                              C              F                   Am\nMe pega em teu colo, me acalma em teu peito\n\n                       F     Dm                       G                             C\nSou teu sou eleito       e a minha essência é exalar teu cheiro\n</pre>"
     }
+    
 ]
