@@ -35,6 +35,9 @@ body {
 
 @media screen and (max-width:431px) {
     main {
+        h3, P {
+            font-size: 1.2rem;
+        }
         #search-results {
             font-size: 1.2rem;
         }
@@ -43,6 +46,9 @@ body {
 
 @media screen and (max-width:376px) {
     main {
+        h3, P {
+            font-size: 1.2rem;
+        }
         #search-results {
             font-size: 1rem;
         }
