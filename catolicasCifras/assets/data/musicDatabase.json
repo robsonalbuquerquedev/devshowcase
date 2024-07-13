@@ -51,6 +51,66 @@
         },
         "content": "<pre>\n\n                  D                       Em                  A7                            D\nEntão é natal e o que você fez? O ano termina e nasce outra vez\n\n                  G                   Am                       D                                     G\nEntão é natal, a festa cristã, o velho e do novo, do amor como um todo\n\n                        C                                    D\nEntão, bom natal e um ano novo também\n\n                 Am           C          D                    G\nQue seja feliz quem      souber o que é o bem\n\nD                                                        Em                          A7                           D\n     Então é Natal pro enfermo e pro são, pro rico e pro pobre num só coração\n\n                          G                             Am                              D                          G\nEntão, bom Natal pro branco e pro negro, amarelo e vermelho, pra paz, afinal\n\n                        C                                    D\nEntão, bom natal e um ano novo também\n\n                 Am           C          D                    G\nQue seja feliz quem      souber o que é o bem\n\nD                                              Em                   A7                           D\n     Então é natal e o que você fez? O ano termina e nasce outra vez\n\n                  G                   Am                       D                                     G\nEntão é natal, a festa cristã, o velho e do novo, do amor como um todo\n\n</pre>"
     },
+    {
+        "title": "Eis o tempo de conversão - CNBB",
+        "category": "Quaresma",
+        "key": "D",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬆⬆"
+        },
+        "content": "<pre>\n\nD                        A7       D                       A7    D\nEis o tempo de conversão, eis o dia da salvação\n\nD7             G         A7           D        Bm   Em             A7       D\nAo Pai voltemos, juntos andemos, eis o tempo de conversão!\n\n            D                   Am             B7              Em\nOs caminhos do Senhor são verdade, são amor\n\n      A7                                                              D\nDirigi os passos meus, em vós espero, ó Senhor!\n\n          D                   Am                  B7                 Em\nEle guia ao bom caminho quem errou e quer voltar\n\n           A7                                                      D\nEle é bom, fiel e justo, Ele busca e vem salvar\n\nD                        A7       D                       A7    D\nEis o tempo de conversão, eis o dia da salvação\n\nD7             G         A7           D        Bm   Em             A7       D\nAo Pai voltemos, juntos andemos, eis o tempo de conversão!\n\n         D                  Am      B7               Em\nViverei com o Senhor, Ele é o meu sustento\n\n           A7                                                                  D\nEu confio mesmo quando minha dor não mais aguento\n\n             D                  Am               B7                  Em\nTem valor aos olhos seus meu sofrer e meu morrer\n\n        A7                                              D\nLibertai o vosso servo e fazei-o reviver!\n\nD                        A7       D                       A7    D\nEis o tempo de conversão, eis o dia da salvação\n\nD7             G         A7           D        Bm   Em             A7       D\nAo Pai voltemos, juntos andemos, eis o tempo de conversão!\n\n</pre>"
+    },
+    {
+        "title": "Eu vim para escutar - Pe. Zezinho",
+        "category": "Quaresma",
+        "key": "Dm",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n     Dm        A7          Dm\nEu vim para escu----tar\n\n  D7   Gm      C      Dm     Bb     A7             Dm\nTua palavra, tua palavra, tua palavra de amor\n\nA7      Dm         A7        Dm\n     Eu gosto de escu----tar\n\n  D7   Gm      C      Dm     Bb     A7             Dm\nTua palavra, tua palavra, tua palavra de amor\n\nA7          Dm           A7       Dm\n     Eu quero entender melhor\n\n  D7   Gm      C      Dm     Bb     A7             Dm\nTua palavra, tua palavra, tua palavra de amor\n\nA7      Dm                A7   Dm\n     O mundo ainda vai viver\n\n  D7   Gm      C      Dm     Bb     A7             Dm\nTua palavra, tua palavra, tua palavra de amor\n\n</pre>"
+    },
+    {
+        "title": "Louvor e glória a Ti, Senhor - CNBB",
+        "category": "Quaresma",
+        "key": "G",
+        "options": {
+            "rhythm": "⬇ ⬇⬆"
+        },
+        "content": "<pre>\n\n        G                  C         G\nLouvor e glória a ti, Senhor\n\n    C         D             G\nCristo, palavra de Deus!\n\n    C         D             G\nCristo, palavra de Deus!\n\nG                                                      D \n   O homem não vive somente de pão\n\nC                                                       D\n   Mas de toda palavra da boca de Deus!\n\n        G                  C         G\nLouvor e glória a ti, Senhor\n\n    C         D             G\nCristo, palavra de Deus!\n\n    C         D             G\nCristo, palavra de Deus!\n\n</pre>"
+    },
+    {
+        "title": "Louvor, honra, glória e poder",
+        "category": "Quaresma",
+        "key": "D",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬆ ⬆"
+        },
+        "content": "<pre>\n\n        D                  G             D          C             G            A\nLouvor, honra, glória e poder ao Cristo Senhor da história\n\n         D                 G              D       C          G         D\nLouvor, honra, glória e poder ao Rei da eterna glória\n\nD                                                      A \n   O homem não vive somente de pão\n\nG                                       Em           C      G      A  \n   Mas de toda palavra da boca de Deus\n\n        D                  G             D          C             G            A\nLouvor, honra, glória e poder ao Cristo Senhor da história\n\n         D                 G              D       C          G         D\nLouvor, honra, glória e poder ao Rei da eterna glória\n\n</pre>"
+    },
+    {
+        "title": "Sabes, Senhor - Lindbergh Pires",
+        "category": "Quaresma",
+        "key": "D",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆"
+        },
+        "content": "<pre>\n\n  D             Em             A7                                  D\nSabes, Senhor, o que temos é tão pouco pra dar\n\n   D    D7         G                      A7                                               D\nMas    esse    pouco, nós queremos com os irmãos compartilhar\n\n        G                 Em      A7               F#m\nQueremos nesta hora, diante dos irmãos\n\n            B7           Em          A7              D\nComprometer a vida, buscando a união\n\n  D             Em             A7                                  D\nSabes, Senhor, o que temos é tão pouco pra dar\n\n   D    D7         G                      A7                                               D\nMas    esse    pouco, nós queremos com os irmãos compartilhar\n\n      G                     Em        A7                 F#m\nSabemos que é difícil, os bens compartilhar\n\n         B7              Em           A7                    D\nMas com a tua graça, Senhor, queremos dar\n\n  D             Em             A7                                  D\nSabes, Senhor, o que temos é tão pouco pra dar\n\n   D    D7         G                      A7                                               D\nMas    esse    pouco, nós queremos com os irmãos compartilhar\n\n      G                  Em                 A7                F#m\nOlhando o teu exemplo, Senhor, vamos seguir\n\n      B7                    Em              A7         D\nFazendo o bem a todos, sem nada exigir\n\n  D             Em             A7                                  D\nSabes, Senhor, o que temos é tão pouco pra dar\n\n   D    D7         G                      A7                                               D\nMas    esse    pouco, nós queremos com os irmãos compartilhar\n\n</pre>"
+    },
+    {
+        "title": "Daqui do meu lugar - Pe. Zezinho",
+        "key": "C",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n         C        G      Am     C        G    Am\nDaqui do meu lugar, eu olho teu altar\n\n    F          G      C       G     Am       G            C  \nE fico a imaginar aquele pão, aquela refeição\n\n       C          G    Am         C            G         Am\nPartiste aquele pão e o deste aos teus irmãos\n\n      F         G     C         G        Am         G                       C\nCriaste a religião do pão do céu, do pão que vem do céu\n\n   C              F            C           F          C                   G              C\nSomos a igreja do pão, do pão repartido e do abraço e da paz\n\n         C         G       Am     C         G     Am\nDaqui do meu lugar, eu olho o teu altar\n\n    F          G      C        G   Am       G                  C\nE fico a imaginar aquela paz, aquela comunhão\n\n      C           G    Am        C             G       Am\nViveste aquela paz e a deste aos teus irmãos\n\n      F         G     C         G        Am         G                       C\nCriaste a religião do pão da paz, do pão que vem do céu\n\n   C              F            C           F          C                   G              C\nSomos a igreja do pão, do pão repartido e do abraço e da paz\n\n</pre>"
+    },
     
     {
         "title": "Já chegou! Já chegou! - Nelsinho Corrêa",
