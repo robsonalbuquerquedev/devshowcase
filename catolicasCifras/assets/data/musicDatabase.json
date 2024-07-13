@@ -1,15 +1,57 @@
 [
     {
-        "title": "Sob a Jerusalém - Waldeci Braga",
-        "category": "natal",
+        "title": "Sobe a Jerusalém - Waldeci Braga",
+        "category": "Natal",
         "key": "D",
         "options": {
             "option1": "⬇ ⬇⬆⬇⬆",
             "option2": "⬇ ⬇⬇⬆",
             "fingerpicking": "P - I - M e A - I"
         },
-        "content": "<pre>\n\n    D  A          Bm                      G        A        D\nSob a Jerusalém, virgem oferente, sem igual\n\n  F#                    Bm                     E                                A \nvai, apresenta o Pai teu menino luz que chegou no natal\n\n D    A                Bm                                 G     A        D  \nE    junto à sua cruz, quando Deus morrer fica de pé\n\n F#                  Bm                   E               A                      D\nSim, ele te salvou, mas ofereceste por nós com toda a fé\n\nA      D    A              Bm                 G     A        D\n     Nós vamos renovar este sacrifício de Jesus\n\n    F#                   Bm                      E                                  A\nMorte e ressurreição: vida que brotou de sua oferta na cruz\n\n    D     A                Bm                   G            A       D\nMãe, vem nos ensinar a fazer da vida uma oblação\n\n   F#                        Bm                 E             A               D\nCulto agradável a Deus é fazer oferta no próprio coração\n\n</pre>"
+        "content": "<pre>\n\n    D   A          Bm                      G        A        D\nSobe a Jerusalém, virgem oferente, sem igual\n\n  F#                    Bm                     E                                A \nvai, apresenta o Pai teu menino luz que chegou no natal\n\n D    A                Bm                                 G     A        D  \nE    junto à sua cruz, quando Deus morrer fica de pé\n\n F#                  Bm                   E               A                      D\nSim, ele te salvou, mas ofereceste por nós com toda a fé\n\nA      D    A              Bm                 G     A        D\n     Nós vamos renovar este sacrifício de Jesus\n\n    F#                   Bm                      E                                  A\nMorte e ressurreição: vida que brotou de sua oferta na cruz\n\n    D     A                Bm                   G            A       D\nMãe, vem nos ensinar a fazer da vida uma oblação\n\n   F#                        Bm                 E             A               D\nCulto agradável a Deus é fazer oferta no próprio coração\n\n</pre>"
     },
+    {
+        "title": "Da cepa brotou a rama - Reginaldo Veloso",
+        "category": "Natal",
+        "key": "Em",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬆⬇⬇⬆",
+            "fingerpicking": "P – I – M – A – M – I"
+        },
+        "content": "<pre>\n\n      Em                   B7                                 Em\nDa cepa brotou a rama, da rama brotou a flor\n\n        E                   Am           Em     B7       Em\nDa flor nasceu Maria, de Maria, o Salva---dor\n\n         Am          D              G              C\nO Espírito de Deus sobre Ele pousará\n\n          B7                                                      Em\nDe saber, de entendimento este Espírito será\n\nE               Am              D             G                     C\n     De conselho e fortaleza, de ciência e de temor\n\n          B7                                                   Em\nAchará sua alegria no temor do seu Senhor\n\n      Em                   B7                                 Em\nDa cepa brotou a rama, da rama brotou a flor\n\n        E                   Am           Em     B7       Em\nDa flor nasceu Maria, de Maria, o Salva---dor\n\n          Am             D             G                     C\nNão será pela ilusão do olhar, do ouvir falar\n\n              B7                                                               Em\nQue Ele irá julgar os homens como é praxe acontecer\n\nE                Am                 D                 G               C\n     Mas os pobres desta terra com justiça julgará\n\n            B7                                                  Em\nE dos fracos o direito Ele é quem defenderá\n\n      Em                   B7                                 Em\nDa cepa brotou a rama, da rama brotou a flor\n\n        E                   Am           Em     B7       Em\nDa flor nasceu Maria, de Maria, o Salva---dor\n\n       Am                 D            G         C\nA palavra de sua boca ferirá o violento\n\n        B7                                               Em\nE o sopro de seus lábios matará o avarento\n\nE           Am         D                  G                      C\n     A justiça é o cinto que circunda a sua cintura\n\n          B7                                           Em\nE o manto da lealdade é a sua vestidura\n\n      Em                   B7                                 Em\nDa cepa brotou a rama, da rama brotou a flor\n\n        E                   Am           Em     B7       Em\nDa flor nasceu Maria, de Maria, o Salva---dor\n\n           Am             D           G               C\nNeste dia, neste dia o incrível, verdadeiro\n\n              B7                                                     Em\nCoisa que nunca se viu, morar lobo com cordeiro\n\nE            Am                     D                  G                   C\n     A comer do mesmo pasto, tigre e boi, burro e leão\n\n                B7                                             Em\nPor um menino guiados se confraternizarão\n\n      Em                   B7                                 Em\nDa cepa brotou a rama, da rama brotou a flor\n\n        E                   Am           Em     B7       Em\nDa flor nasceu Maria, de Maria, o Salva---dor\n\n</pre>"
+    },
+    {
+        "title": "Noite Feliz - Franz Gruber / Joseph Mohr",
+        "category": "Natal",
+        "key": "A",
+        "options": {
+            "rhythm": "⬇ ⬇⬆⬇⬆",
+            "option1": "P – I – M – A – M – I",
+            "option2": "P – I – M e A – I – M e A – I"
+        },
+        "content": "<pre>\n\n    A                              E                A\nNoite feliz, noite feliz, ó Senhor, Deus de amor\n\n             D            A                   D                    A\nPobrezinho nasceu em Belém, eis na lapa Jesus nosso bem\n\n   E                             A                      E           A \nDorme em paz, ó Jesus, dorme em paz, ó Jesus\n\n    A                              E                     A\nNoite feliz, noite feliz, eis que no ar, vem cantar\n\nD                        A                      D                           A\nAos pastores os anjos dos céus anunciando a chegada de Deus\n\n   E                    A             E            A\nDe Jesus salvador, de Jesus salvador\n\n   A                               E             A\nNoite feliz, noite feliz, ó Jesus, Deus da luz\n\n     D                 A                      D                     A\nQuão afável é teu coração, que quiseste nascer nosso irmão\n\n    E                        A                E             A\nPra nós todos salvar, e a nós todos salvar\n\n</pre>"
+    },
+    {
+        "title": "Bate o sino - James Lord Pierpont",
+        "category": "Natal",
+        "key": "E",
+        "options": {
+            "rhythm": "⬇⬇ ⬆⬇⬆"
+        },
+        "content": "<pre>\n\n  E\nBate o sino pequenino, sino de Belém\n\n  A                  E                  B7\nJá nasceu o Deus menino para o nosso bem\n\n  E\nPaz na terra pede o sino alegre a cantar\n\nA                 E                  B7                     E\nAbençoe, Deus menino, este é o nosso lar\n\n    E                                              A                        B7                    E\nHoje a noite é bela, vamos à capela sob a luz da vela felizes a orar\n\n E                                         A                             B7                      E\nAo soar o sino, sino pequenino, vai o Deus menino nos abençoar\n\n  E\nBate o sino pequenino, sino de Belém\n\n  A                  E                  B7\nJá nasceu o Deus menino para o nosso bem\n\n  E\nPaz na terra pede o sino alegre a cantar\n\nA                 E                  B7                     E\nAbençoe, Deus menino, este é o nosso lar\n\n   E                                                 A                           B7                     E\nVamos, minha gente, vamos à Belém, vamos ver Maria e Jesus também\n\n  E                                                   A                    B7                      E\nJá deu meia noite, já chegou o natal, já tocou o sino lá na catedral\n\n  E\nBate o sino pequenino, sino de Belém\n\n  A                  E                  B7\nJá nasceu o Deus menino para o nosso bem\n\n  E\nPaz na terra pede o sino alegre a cantar\n\nA                 E                  B7                     E\nAbençoe, Deus menino, este é o nosso lar\n\n</pre>"
+    },
+    {
+        "title": "Então é natal - Cláudio Rabello",
+        "category": "Natal",
+        "key": "D",
+        "options": {
+            "option1":"⬇ ⬇⬆⬇⬆",
+            "option2":"⬇ ⬆⬆"
+        },
+        "content": "<pre>\n\n                  D                       Em                  A7                            D\nEntão é natal e o que você fez? O ano termina e nasce outra vez\n\n                  G                   Am                       D                                     G\nEntão é natal, a festa cristã, o velho e do novo, do amor como um todo\n\n                        C                                    D\nEntão, bom natal e um ano novo também\n\n                 Am           C          D                    G\nQue seja feliz quem      souber o que é o bem\n\nD                                                        Em                          A7                           D\n     Então é Natal pro enfermo e pro são, pro rico e pro pobre num só coração\n\n                          G                             Am                              D                          G\nEntão, bom Natal pro branco e pro negro, amarelo e vermelho, pra paz, afinal\n\n                        C                                    D\nEntão, bom natal e um ano novo também\n\n                 Am           C          D                    G\nQue seja feliz quem      souber o que é o bem\n\nD                                              Em                   A7                           D\n     Então é natal e o que você fez? O ano termina e nasce outra vez\n\n                  G                   Am                       D                                     G\nEntão é natal, a festa cristã, o velho e do novo, do amor como um todo\n\n</pre>"
+    },
+    
     {
         "title": "Já chegou! Já chegou! - Nelsinho Corrêa",
         "category": "grupo_oracao",
