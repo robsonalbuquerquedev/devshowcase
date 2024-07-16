@@ -39,18 +39,18 @@ body {
             font-size: 1.2rem;
         }
         #search-results {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
     }
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:391px) {
     main {
         h3, P {
             font-size: 1.2rem;
         }
         #search-results {
-            font-size: 1rem;
+            font-size: .9rem;
         }
     }
 }
