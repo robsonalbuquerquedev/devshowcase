@@ -536,7 +536,50 @@
         },
         "content": "<pre>\n\n         D                           Bm                             G             D\nSenhor que viestes não para condenar, mas para perdoar,\n\nEm                           A\nTende piedade de nós\n\n  D     Em      D       G      D     Em        D       G         D         A       D\nKy----rie      Elei----son, Ky----rie      Elei----son, Kyrie      Elei----son\n\n    D                               Bm                 G           D\nCristo que vos alegrais pelo pecador arrependido,\n\nEm                           A\nTende piedade de nós\n\n      D     Em     D        G         D      Em      D        G          D        A        D\nChris----te     Elei----son, Chris----te      Elei----son,Christe      Elei----son\n\n         D                                Bm                        G           D\nSenhor que muito perdoais a todo aquele que muito ama,\n\nEm                           A\nTende piedade de nós\n\n  D     Em       D       G      D     Em        D       G         D         A       D\nKy----rie      Elei----son, Ky----rie      Elei----son, Kyrie      Elei----son\n\n</pre>"
     },
-    
+    {
+        "title": "Perdoa-me - Shalom",
+        "key": "D",
+        "category": "tempo_comum",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n        D                    A       D                               G    D\nSenhor, que Te deixaste ferir. Do Teu sangue vem a Paz!\n\n            Em          D         A\nAqui estou, perdoa----me!\n\nBm       A       D           Bm        A   G\nKyri----e     eleison. Kyrie------e eleison\n\n    Em      D        G          D   A    D\nKyrie-----e     eleison. Ooo   o    o\n\n       D            A       D                            G      D\nÓ Cristo, elevado na Cruz. És Amigo do pecador!\n\n            Em          D         A\nAqui estou, perdoa----me!\n\nBm       A       D           Bm        A   G\nKyri----e     eleison. Kyrie------e eleison\n\n    Em      D        G            D A   D\nKyrie-----e     eleison. Ooo   o   o\n\n         D          A             D                          G        D\nSenhor, da morte, vencedor. Verdadeiro filho de Deus!\n\n            Em          D         A\nAqui estou, perdoa----me!\n\n</pre>"
+    },
+    {
+        "title": "Senhor, que viestes Salvar - Canção Nova",
+        "key": "G",
+        "category": "tempo_comum",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M e A – I"
+        },
+        "content": "<pre>\n\n         G            D                             C    Am         D\nSenhor, que viestes salvar os corações arrependidos\n\n   C       G        Em      D   G\nKyrie eleison, Kyri----e eleison,\n\n    Bm       Em       C   D       G\nKyrie eleison, Kyrie elei----son\n\n        G               D                                  C     Am             D\nÓ, Cristo, que viestes chamar os pecadores tão humilhados\n\n      C       G            Em      D      G\nChriste eleison, Chris----te    eleison,\n\n        Bm      Em           C      D       G\nChriste eleison, Christe    elei-----son\n\n         G                       D                                     C     Am               D\nSenhor, que intercedeis por nós junto a Deus Pai que nos perdoa\n\n  C       G         Em      D      G\nKyrie eleison, Kyri----e    eleison,\n\n    Bm       Em       C      D       G\nKyrie eleison, Kyrie    elei----son\n\n</pre>"
+    },
+    {
+        "title": "Senhor, que viestes salvar - Pe. Zeca",
+        "key": "C",
+        "category": "tempo_comum",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M – A – M – I"
+        },
+        "content": "<pre>\n\n         C            G           Am             Dm               G       C\nSenhor, que viestes salvar os corações arrependi----dos\n\nC7          F             C     Am     Dm       G       C \n       Piedade, piedade,      pieda------de de nós\n\nC7          F             C     Am     Dm       G       C \n       Piedade, piedade,      pieda------de de nós\n\n        C               G              Am             Dm               G      C\nÓ, Cristo, que viestes chamar os pecadores humilha----dos\n\nC7          F             C     Am     Dm       G       C \n       Piedade, piedade,      pieda------de de nós\n\nC7          F             C     Am     Dm       G       C \n       Piedade, piedade,      pieda------de de nós\n\n        C                        G          Am                     Dm                     G       C\nSenhor, que intercedeis por nós junto a Deus Pai que nos perdo-----a\n\nC7          F             C     Am     Dm       G       C \n       Piedade, piedade,      pieda------de de nós\n\nC7          F             C     Am     Dm       G       C \n       Piedade, piedade,      pieda------de de nós\n\n</pre>"
+    },
+    {
+        "title": "Senhor, que viestes salvar - JMJ RIO 2013",
+        "key": "Bm",
+        "category": "tempo_comum",
+        "options": {
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇ ⬇⬇⬆",
+            "fingerpicking": "P – I – M – A – M – I"
+        },
+        "content": "<pre>\n\n       Bm           A             G              Bm               A         F#\nSenhor, que viestes salvar os corações arrependi-----dos\n\n      D        A      F#      Bm   E        A\nKyrie eleison, elei----son, elei----son.\n\n      D        A      F#      Bm   E        A\nKyrie eleison, elei----son, elei----son.\n\n       Bm              A               G              Bm               A        F#\nÓ, Cristo, que viestes chamar os pecadores humilha----dos\n\n         D        A      F#      Bm    E        A\nChriste eleison, elei-----son, elei----son\n\n         D        A      F#      Bm    E        A\nChriste eleison, elei-----son, elei----son\n\n        Bm                A                G                       Bm                      A       F#\nSenhor, que intercedeis por nós junto a Deus Pai que nos perdo-----a\n\n      D        A      F#      Bm   E       A\nKyrie eleison, elei----son, elei----son.\n\n      D        A      F#      Bm   E       A\nKyrie eleison, elei----son, elei----son.\n\n</pre>"
+    },
     {
         "title": "Já chegou! Já chegou! - Nelsinho Corrêa",
         "category": "grupo_oracao",
@@ -1496,5 +1539,4 @@
         }, 
         "content": "<pre>\n\n- Pai Nosso\n- Ave Maria\n- Credo\n\nNas contas grandes:\n\n            Em    Am       D         G       Am            D\nEterno Pai,     eu      vos ofereço o corpo e o sangue\n\nG       D          Em       Am           B7        Em\nAlma e divindade de vosso diletíssimo filho\n\nAm               D  G       D    Em\nNosso Senhor Je----sus Cristo\n\n            Am                            B7                              Em\nEm expiação dos nossos pecados e do mundo inteiro\n\nNas dez contas pequenas:\n\n        Em                       C\nPela sua dolorosa paixão\n\nAm                                  D                         Em\nTende misericórdia de nós e do mundo inteiro\n\nAo finalizar:\n\n         Em                D         C           G      Am            G           D\nDeus santo, Deus forte, Deus Imortal,    tende piedade de nós (3x)\n\n- Salve Rainha.\n\n</pre>"
     }
-    
 ]
