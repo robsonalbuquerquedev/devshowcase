@@ -1,4 +1,5 @@
 $cor1: #4CAF50;
+$cor2: #000;
 
 main {
     padding: 2rem;
@@ -19,5 +20,13 @@ main {
     #search-results {
         padding: 1rem;
         font-size: 1.4rem;
+    }
+    table {
+        border-collapse: collapse;
+        text-align: center;
+        th, td {
+            border: .1rem solid $cor2;
+            padding: 1rem;
+        }
     }
 }

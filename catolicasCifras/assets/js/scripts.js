@@ -7,7 +7,6 @@ async function loadMusicDatabase() {
             throw new Error('Erro ao carregar o banco de dados de músicas');
         }
         musicDatabase = await response.json();
-        // Não chame displayCategorySongs ou qualquer função de exibição aqui
     } catch (error) {
         console.error(error);
     }
@@ -37,12 +36,40 @@ function displayCategorySongs(category) {
     let searchResults = document.getElementById('search-results');
     searchResults.innerHTML = '';
 
-    let filteredSongs = musicDatabase.filter(song => song.category === category);
+    let filteredSongs = musicDatabase.filter(song => song.category.toLowerCase() === category.toLowerCase());
     if (filteredSongs.length > 0) {
+        let table = document.createElement('table');
+        let tableHeader = `
+            <thead>
+                <tr>
+                    <th>MÚSICA</th>
+                    <th>TOM</th>
+                </tr>
+            </thead>`;
+        table.innerHTML = tableHeader;
+
+        let tableBody = document.createElement('tbody');
         filteredSongs.forEach(song => {
-            let songElement = createSongElement(song);
-            searchResults.appendChild(songElement);
+            let songRow = `
+                <tr>
+                    <td>${song.title}</td>
+                    <td>${song.key}</td>
+                </tr>`;
+            tableBody.innerHTML += songRow;
         });
+
+        table.appendChild(tableBody);
+
+        let tableFooter = `
+            <tfoot>
+                <tr>
+                    <th>Total de músicas</th>
+                    <td>${filteredSongs.length}</td>
+                </tr>
+            </tfoot>`;
+        table.innerHTML += tableFooter;
+
+        searchResults.appendChild(table);
     } else {
         searchResults.innerHTML = '<p>Nenhuma música encontrada.</p>';
     }
