@@ -17,16 +17,35 @@ main {
         font-size: 1.5rem;
         padding: 0.3rem;
     }
+
     #search-results {
         padding: 1rem;
         font-size: 1.4rem;
     }
+
     table {
         border-collapse: collapse;
         text-align: center;
         th, td {
             border: .1rem solid $cor2;
             padding: 1rem;
+        }
+    }
+
+    .about-container {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+        .profile-pic {
+            align-self: start;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        .about-text {
+            max-width: 600px;
         }
     }
 }
