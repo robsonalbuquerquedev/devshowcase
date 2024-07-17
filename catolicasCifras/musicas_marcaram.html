@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas de Quaresma</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Home</a></h1>
+        <nav>
+            <div class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Categorias</a>
+                <div class="dropdown2">
+                    <div class="content-dropdown">
+                        <a href="#">Advento</a>
+                        <a href="natal.html">Natal</a>
+                        <a href="quaresma.html">Quaresma</a>
+                        <a href="pascoa.html">Páscoa</a>
+                        <a href="tempo_comum.html">Tempo Comum</a>
+                        <a href="musicas_marianas.html">Músicas Marianas</a>
+                        <a href="musica_adoracao.html">Música para Adoração</a>
+                        <a href="musicas_conhecidas.html">Músicas Mais Conhecidas</a>
+                        <a href="grupo_oracao.html">Músicas para Grupo de Oração</a>
+                        <a href="musicas_marcaram.html">Músicas que Nos Marcaram</a>
+                        <a href="#">Cânticos Evangélicos</a>
+                        <a href="infantis.html">Músicas Infantis</a>
+                        <a href="musica_extra.html">Música Extra</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Músicas Que Nos Marcaram</h1>
+        <div id="search-results"></div>
+    </main>
+    
+    <script src="assets/js/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadMusicDatabase(); // Carrega o banco de dados antes de exibir as músicas
+            displayCategorySongs('musicas_que_nos_marcaram'); // Chama a função para exibir as músicas da categoria
+        });
+    </script>
+</body>
+</html>
