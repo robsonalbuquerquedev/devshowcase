@@ -8,7 +8,6 @@ $franklinGothic: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 $trebuchetMS: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 
 header {
-    position: relative;
     background-color: $cor1;
     box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
     color: $cor2;
@@ -26,6 +25,27 @@ header {
         a {
             text-decoration: none;
             color: $cor2;
+        }
+    }
+
+    .title {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 1rem;
+
+        #about-me {
+            align-self: end; 
+            box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.1);
+            font-size: 2rem;
+            text-decoration: none;
+            text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.4);
+            background-color: $cor3;
+            color: $cor2;
+            padding: 1rem;
+        }
+        #about-me:hover {
+            opacity: .9;
+            text-decoration: underline;
         }
     }
 
@@ -55,6 +75,7 @@ header {
 
     nav {
         .dropdown {
+            position: relative;
             .dropbtn {
                 font-family: $franklinGothic;
                 font-size: 2.5rem;
@@ -64,7 +85,6 @@ header {
             }
             .dropdown2 {
                 padding: 1rem;
-                position: relative;
                 .content-dropdown {
                     position: absolute;
                     left: 0;
@@ -99,22 +119,5 @@ header {
                 display: block;
             }
         }
-    }
-    #about-me {
-        display: block;
-        position: fixed;
-        bottom: 94%;
-        right: 60%;
-        box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.1);
-        font-size: 2rem;
-        text-decoration: none;
-        text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.4);
-        background-color: $cor3;
-        color: $cor2;
-        padding: 1rem;
-    }
-    #about-me:hover {
-        opacity: .9;
-        text-decoration: underline;
     }
 }
