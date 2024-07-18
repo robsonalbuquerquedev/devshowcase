@@ -46,6 +46,10 @@ main {
         }
         .about-text {
             max-width: 600px;
+
+            p {
+                line-height: 1.6;
+            }
         }
     }
 }

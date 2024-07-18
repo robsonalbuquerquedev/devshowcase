@@ -29,8 +29,16 @@ body {
 }
 
 @media screen and (max-width:775px) {
-    header {
+    header, .about-container {
         flex-flow: column wrap;
+        gap: 1rem;
+    }
+    main {
+        .about-container {
+            .profile-pic {
+                align-self: center;
+            }
+        }
     }
 }
 
