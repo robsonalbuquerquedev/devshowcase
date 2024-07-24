@@ -926,11 +926,12 @@
     {
         "title": "Cheiro de rosas - Colo de Deus",
         "category": "marianas",
-        "key": "Em",
+        "key": "Em - Capo 2ºcasa",
         "options": {
-            "rhythm": "⬇ ⬇⬆⬇⬆"
+            "option1": "⬇ ⬇⬆⬇⬆",
+            "option2": "⬇⬆⬆ ⬇⬆⬆ ⬇⬇⬆⬇⬆"
         },
-        "content": "<pre>\n\nEm                D         C     Em                 D              C\n     Estás aqui, agraciada,      posso sentir teu perfume\n\nEm                D               C                Em                  D             C\n     Estás aqui, mãe do meu Senhor,      vem ficar perto de mim\n\n                  G            D                  C       D\nCheiro de rosas nesse lugar, Maria, aqui está\n\n         Am            C               D\nE o Espirito de Deus descerá\n\n                  G             D                C            D\nCheiro de rosas nesse lugar, a rainha presente está\n\n         Am              C         D      Em    D      C\nPentecostes aconte-----ce-----rá\n\n</pre>"
+        "content": "<pre>\n\nEm         D           C9    Em           D           C9\nEstás aqui, agraciada, posso sentir teu perfume\n\nEm       D                  C9                Em             D         C9\nEstás aqui, mãe do meu Senhor, vem ficar perto de mim\n\n                  G       D/F#              Em       D\nCheiro de rosas nesse lugar, Maria, aqui está\n\n         Em            C            D    D4    D\nE o Espirito de Deus descerá\n\n                   G          D/F#             Em           D\nCheiro de rosas nesse lugar, a rainha presente está\n\n           Am              C   D      Em    D      C9\nPentecostes acontecerá\n\n</pre>"
     },
     {
         "title": "O cântico de Maria - Ministério Adoração e Vida",
