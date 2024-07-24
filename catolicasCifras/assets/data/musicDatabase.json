@@ -895,10 +895,11 @@
         "category": "marianas",
         "key": "E",
         "options": {
-            "option1": "⬇ ⬇⬆⬇⬆",
-            "option2": "⬇ ⬆⬆"
+            "option1": "⬇⬇⬆⬆",
+            "option2": "⬇⬇⬆⬆⬇⬆⬇⬆",
+            "fingerpicking": "P – I – M – A – M – I"
         },
-        "content": "<pre>\n\nE                       A            Am  E\nAve cheia de graça, bendita sejas, mãe\n\n     E                         A            Am         E\nTe amo com amor eterno, singelo de coração\n\n     E                       A             Am         E\nQuero então colocar minha vida em tuas mãos\n\n       E                       A                Am                      E\nSentir que podes ninar-me, mãezinha com tua proteção\n\n                  C#m                                A\nEu quero deixar que teu plano em mim\n\n                F#m                  B7\nPossa realizar sem limitações\n\n                C#m                         A\nE quero tentar sem porém saber\n\n                  F#m                     D     B7\nSer um pouquinho do que tu és\n\n</pre>"
+        "content": "<pre>\n\n  E                    A9      Am         E\nAve cheia de graça, bendita sejas, mãe\n\n                                A9        Am            E\nTe amo com amor eterno, singelo de coração\n\n                            A9             Am         E\nQuero então colocar minha vida em tuas mãos\n\n                               A9                Am                     E\nSentir que podes ninar-me, mãezinha com tua proteção\n\n                  C#m                             A9\nEu quero deixar que teu plano em mim\n\n              F#m            B9\nPossa realizar sem limitações\n\n               C#m                       A9\nE quero tentar sem porém saber\n\n                 F#m                      D  B9\nSer um pouquinho do que tu és\n\n</pre>"
     },
     {
         "title": "Mãe do Novo Homem - Mensagem Brasil",
