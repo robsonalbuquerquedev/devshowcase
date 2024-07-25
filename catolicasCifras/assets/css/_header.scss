@@ -14,38 +14,19 @@ header {
     padding: 3rem;
 
     display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
     align-items: center;
     justify-content: space-around;
 
     h1 {
-        font-family: $courierNew;
+        font-family: $franklinGothic;
         font-size: 3rem;
         text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.5);
 
         a {
             text-decoration: none;
             color: $cor2;
-        }
-    }
-
-    .title {
-        display: flex;
-        flex-flow: column wrap;
-        gap: 1rem;
-
-        #about-me {
-            align-self: end; 
-            box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.1);
-            font-size: 2rem;
-            text-decoration: none;
-            text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.4);
-            background-color: $cor3;
-            color: $cor2;
-            padding: 1rem;
-        }
-        #about-me:hover {
-            opacity: .9;
-            text-decoration: underline;
         }
     }
 
@@ -57,10 +38,14 @@ header {
         input {
             padding: 1rem;
             border-radius: .7rem;
+            width: 47%;
+            height: 4.3rem;
         }
         button {
-            width: 10.3rem;
+            padding: 1rem;
+            width: 47%;
             height: 4.3rem;
+            border: .3rem solid $cor3;
             border-radius: .7rem;
             font-size: 1.7rem;
             background-color: $cor2;
@@ -74,10 +59,21 @@ header {
     }
 
     nav {
+        font-family: $franklinGothic;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        #about-me {
+            font-size: 2.5rem;
+            text-decoration: none;
+            color: $cor2;
+            text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.4);
+        }
+
         .dropdown {
             position: relative;
             .dropbtn {
-                font-family: $franklinGothic;
                 font-size: 2.5rem;
                 text-decoration: none;
                 color: $cor2;
@@ -87,7 +83,7 @@ header {
                 padding: 1rem;
                 .content-dropdown {
                     position: absolute;
-                    left: 0;
+                    left: -70%;
                     min-width: 21rem;
                     background: $cor3;
                     box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
@@ -117,6 +113,21 @@ header {
             }
             .dropdown2 {
                 display: block;
+            }
+        }
+    }
+}
+
+.sobreMim, .categoria {
+    flex-flow: row wrap;
+
+    nav {
+        .dropdown {
+            .dropdown2 {
+                padding: 1rem;
+                .content-dropdown {
+                    left: 0;
+                }
             }
         }
     }

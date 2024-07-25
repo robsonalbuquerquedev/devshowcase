@@ -25,10 +25,10 @@ async function searchSong() {
                 searchResults.appendChild(songElement);
             });
         } else {
-            searchResults.innerHTML = '<p>Nenhuma música encontrada.</p>';
+            searchResults.innerHTML = '<p class="alert-red">Nenhuma música encontrada.</p>';
         }
     } else {
-        searchResults.innerHTML = '<p>Por favor, digite um termo de busca.</p>';
+        searchResults.innerHTML = '<p class="alert-yellow">Por favor, digite um termo de busca.</p>';
     }
 }
 
@@ -50,28 +50,37 @@ function displayCategorySongs(category) {
 
         let tableBody = document.createElement('tbody');
         filteredSongs.forEach(song => {
-            let songRow = `
-                <tr>
-                    <td>${song.title}</td>
-                    <td>${song.key}</td>
-                </tr>`;
-            tableBody.innerHTML += songRow;
+            let songRow = document.createElement('tr');
+            songRow.innerHTML = `
+                <td class="clickable-song">${song.title}</td>
+                <td>${song.key}</td>`;
+            tableBody.appendChild(songRow);
         });
 
         table.appendChild(tableBody);
 
-        let tableFooter = `
-            <tfoot>
-                <tr>
-                    <th>Total de músicas</th>
-                    <td>${filteredSongs.length}</td>
-                </tr>
-            </tfoot>`;
-        table.innerHTML += tableFooter;
+        let tableFooter = document.createElement('tfoot');
+        tableFooter.innerHTML = `
+            <tr>
+                <th>Total de músicas</th>
+                <td>${filteredSongs.length}</td>
+            </tr>`;
+        table.appendChild(tableFooter);
 
         searchResults.appendChild(table);
+
+        // Adiciona event listeners após criar a tabela
+        let clickableSongs = document.querySelectorAll('.clickable-song');
+        clickableSongs.forEach((element, index) => {
+            element.addEventListener('click', () => {
+                let song = filteredSongs[index];
+                let songElement = createSongElement(song);
+                searchResults.innerHTML = '';
+                searchResults.appendChild(songElement);
+            });
+        });
     } else {
-        searchResults.innerHTML = '<p>Nenhuma música encontrada.</p>';
+        searchResults.innerHTML = '<p class="alert-red">Nenhuma música encontrada.</p>';
     }
 }
 
