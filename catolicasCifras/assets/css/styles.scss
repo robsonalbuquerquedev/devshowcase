@@ -6,6 +6,9 @@
 
 $arial: Arial, Helvetica, sans-serif;
 $cor1: #f1f1f1;
+$cor2: #FFA62B;
+$cor3: #BF3100;
+$cor4: #000;
 
 :root {
     font-size: 62.5%;
@@ -26,6 +29,29 @@ body {
 
 .dropdown2 {
     display: none;
+}
+
+/* Alert styles */
+.alert-yellow {
+    color: $cor2;
+    font-weight: bold;
+    text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.1);
+}
+
+.alert-red {
+    color: $cor3;
+    font-weight: bold;
+    text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.1);
+}
+
+/* Style for clickable song titles */
+.clickable-song {
+    cursor: pointer;
+    color: $cor4;
+    text-decoration: none;
+}
+.clickable-song:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width:775px) {
@@ -49,6 +75,17 @@ body {
         }
         #search-results {
             font-size: 1rem;
+        }
+    }
+    footer {
+        p {
+            font-size: 1rem;
+        }
+    
+        .social-links a {
+            img {
+                width: 2rem;
+            }
         }
     }
 }
