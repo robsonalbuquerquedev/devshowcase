@@ -1,0 +1,37 @@
+{
+    "estruturas_sequenciais": [
+        {
+            "id": 1,
+            "titulo": "Questão 1",
+            "descricao": "Perguntar o nome do usuário e dar \"Boa tarde\" a essa pessoa.",
+            "codigo_principal": "<pre>nome = input(\"Qual é o seu nome? \")\nprint(f\"Boa tarde, {nome}!\")</pre>",
+            "outras_formas": [
+                "<pre>nome = input(\"Qual é o seu nome? \")\nprint(\"Boa tarde, \" + nome + \"!\")</pre>",
+                "<pre>nome = input(\"Qual é o seu nome? \")\nmensagem = \"Boa tarde, \" + nome + \"!\"\nprint(mensagem)</pre>",
+                "<pre>def saudar(nome):\n    return \"Boa tarde, \" + nome + \"!\"\nnome = input(\"Qual é o seu nome? \")\nprint(saudar(nome))</pre>"
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "Questão 2",
+            "descricao": "Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.",
+            "codigo_principal": "<pre>nome = input('Seu nome: ')\nprint(f'Olá {nome}! Prazer em te conhecer!')</pre>",
+            "outras_formas": [
+                "<pre>nome = input('Seu nome: ')\nmensagem = 'Olá {}! Prazer em te conhecer!'.format(nome)\nprint(mensagem)</pre>",
+                "<pre>nome = input('Seu nome: ')\nmensagem = 'Olá ' + nome + '! Prazer em te conhecer!'\nprint(mensagem)</pre>",
+                "<pre>nome = input('Seu nome: ')\nmensagem = 'Olá %s! Prazer em te conhecer!' % nome\nprint(mensagem)</pre>"
+            ]
+        }
+    ],
+    "estruturas_condicionais": [
+        {
+            "id": 1,
+            "titulo": "Questão 1",
+            "descricao": "Escreva um programa que verifica se um número é positivo, negativo ou zero.",
+            "codigo_principal": "<pre>numero = float(input(\"Digite um número: \"))\nif numero > 0:\n    print(\"Positivo\")\nelif numero < 0:\n    print(\"Negativo\")\nelse:\n    print(\"Zero\")</pre>",
+            "outras_formas": [
+                "<pre>numero = float(input(\"Digite um número: \"))\nprint(\"Positivo\" if numero > 0 else \"Negativo\" if numero < 0 else \"Zero\")</pre>"
+            ]
+        }
+    ]
+}

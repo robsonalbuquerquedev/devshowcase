@@ -1,0 +1,14 @@
+$cor1: #4CAF50;
+$cor2: #fff;
+
+header {
+    background-color: $cor1;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: .1rem solid  $cor2;
+
+    h1 {
+        font-size: 3rem;
+        text-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.2);
+    }
+}
