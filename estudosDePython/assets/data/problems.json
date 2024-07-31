@@ -3,6 +3,18 @@
         {
             "id": 1,
             "titulo": "Questão 1",
+            "descricao": "Crie um programa que escreva 'Olá, Mundo!' na tela.",
+            "codigo_principal": "<pre>print('Olá, Mundo!')</pre>",
+            "outras_formas": [
+                "<pre>mensagem = 'Olá, Mundo!'\nprint(mensagem)</pre>",
+                "<pre>print('Olá' + ', ' + 'Mundo' + '!')</pre>",
+                "<pre>print(f'Olá, {'Mundo'}!')</pre>",
+                "<pre>print('Olá, {}!'.format('Mundo'))</pre>"
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "Questão 2",
             "descricao": "Perguntar o nome do usuário e dar \"Boa tarde\" a essa pessoa.",
             "codigo_principal": "<pre>nome = input(\"Qual é o seu nome? \")\nprint(f\"Boa tarde, {nome}!\")</pre>",
             "outras_formas": [
@@ -12,14 +24,177 @@
             ]
         },
         {
-            "id": 2,
-            "titulo": "Questão 2",
+            "id": 3,
+            "titulo": "Questão 3",
             "descricao": "Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.",
             "codigo_principal": "<pre>nome = input('Seu nome: ')\nprint(f'Olá {nome}! Prazer em te conhecer!')</pre>",
             "outras_formas": [
                 "<pre>nome = input('Seu nome: ')\nmensagem = 'Olá {}! Prazer em te conhecer!'.format(nome)\nprint(mensagem)</pre>",
                 "<pre>nome = input('Seu nome: ')\nmensagem = 'Olá ' + nome + '! Prazer em te conhecer!'\nprint(mensagem)</pre>",
                 "<pre>nome = input('Seu nome: ')\nmensagem = 'Olá %s! Prazer em te conhecer!' % nome\nprint(mensagem)</pre>"
+            ]
+        },
+        {
+            "id": 4,
+            "titulo": "Questão 4",
+            "descricao": "Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.",
+            "codigo_principal": "<pre>preco_produto = float(input('Preço do produto: R$'))\ndesc = preco_produto * 5/100\npreco_produto -= desc\nprint(f'O novo preço de do produto com 5% de desconto é de: R${preco_produto:.2f}')]</pre>",
+            "outras_formas": [
+                "<pre>preco_produto = float(input('Preço do produto: R$'))\ndesc = preco_produto * 5/100\npreco_com_desc = preco_produto - desc\npreco_com_desc = round(preco_com_desc, 2)\nprint(f'O novo preço de do produto com 5% de desconto é de: R${preco_com_desc:.2f}')</pre>",
+                "<pre>preco_produto = float(input('Preço do produto: R$'))\npreco_produto -= preco_produto * 5/100\nprint(f'O novo preço de do produto com 5% de desconto é de: R${preco_produto:.2f}')</pre>",
+                "<pre>preco_produto = float(input('Preço do produto: R$'))\ndesc = preco_produto * 5/100\npreco_com_desc = preco_produto - desc\nprint('O novo preço do produto com 5% de desconto é de: R${:.2f}'.format(preco_com_desc))</pre>",
+                "<pre>from math import fsum\npreco_produto = float(input('Preço do produto: R$'))\npreco_com_desc = fsum([preco_produto, -preco_produto * 5/100])\nprint(f'O novo preço de do produto com 5% de desconto é de: R${preco_com_desc:.2f}')</pre>"
+            ]
+        },
+        {
+            "id": 5,
+            "titulo": "Questão 5",
+            "descricao": "Desenvolva um programa que leia uma medida em pés e apresente o seu valor convertido em metros, lembrando que um pé é igual a 30,48 centímetros.",
+            "codigo_principal": "<pre>medida_pes = float(input('Médida em pés: '))\nprint(f'Conversãoo: {medida_pes * 30.48}')</pre>",
+            "outras_formas": [
+                "<pre>PES_PARA_CM = 30.48\nmedida_pes = float(input('Médida em pés: '))\nmedida_cm = medida_pes * PES_PARA_CM\nprint(f'Conversão: {medida_cm:.1f}')</pre>",
+                "<pre>medida_pes = float(input('Medida em pés: '))\nmedida_cm = medida_pes * 30.48\nmedida_cm = round(medida_cm, 1)\nprint('Conversão:', medida_cm)</pre>",
+                "<pre>def pes_para_cm(medida_pes):\nreturn medida_pes * 30.48\nmedida_pes = float(input('Médida em pés: '))\nmedida_cm = pes_para_cm(medida_pes)\nprint(f'Conversão: {medida_cm:.1f}')</pre>"
+            ]
+        },
+        {
+            "id": 6,
+            "titulo": "Questão 6",
+            "descricao": "Escreva um programa que pergunte a quantidade de KM percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60,00 por dia e R$0,15 por KM rodado.",
+            "codigo_principal": "<pre>qtde_Km_Pecorrido = int(input('Quantidade de KM percorrido: '))\nqtde_Dia = int(input('Quantidade de dias em que o carro foi alugado: '))\nprint(f'Preço a pagar: {qtde_Km_Pecorrido * 0.15 + qtde_Dia * 60:.2f}')</pre>",
+            "outras_formas": [
+                "<pre>qtde_Km_Pecorrido = int(input('Quantidade de KM percorrido: '))\nqtde_Dia = int(input('Quantidade de dias em que o carro foi alugado: '))\npreco_Km = 0.15\npreco_Dia = 60\nvalor_Km = qtde_Km_Pecorrido * preco_Km\nvalor_Dia = qtde_Dia * preco_Dia\ntotal = valor_Km + valor_Dia\nprint(f'Preço a pagar: {total:.2f}')</pre>",
+                "<pre>qtde_Km_Pecorrido = int(input('Quantidade de KM percorrido: '))\nqtde_Dia = int(input('Quantidade de dias em que o carro foi alugado: '))\npreco_Km = 0.15\npreco_Dia = 60\ntotal = qtde_Km_Pecorrido * preco_Km + qtde_Dia * preco_Dia\nprint(f'Preço a pagar: {total:.2f}')</pre>",
+                "<pre>qtde_Km_Pecorrido = int(input('Quantidade de KM percorrido: '))\nqtde_Dia = int(input('Quantidade de dias em que o carro foi alugado: '))\ntotal = qtde_Km_Pecorrido * 0.15 + qtde_Dia * 60\nprint(f'Preço a pagar: {total:.2f}')</pre>",
+                "<pre>def calcular_preco(qtde_Km_Pecorrido, qtde_Dia):\npreco_Km = 0.15\npreco_Dia = 60\nvalor_Km = qtde_Km_Pecorrido * preco_Km\nvalor_Dia = qtde_Dia * preco_Dia\ntotal = valor_Km + valor_Dia\nreturn total\nqtde_Km_Pecorrido = int(input('Quantidade de KM percorrido: '))\nqtde_Dia = int(input('Quantidade de dias em que o carro foi alugado: '))\npreco_total = calcular_preco(qtde_Km_Pecorrido, qtde_Dia)\nprint(f'Preço a pagar: {preco_total:.2f}')</pre>"
+            ]
+        },
+        {
+            "id": 7,
+            "titulo": "Questão 7",
+            "descricao": "Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.",
+            "codigo_principal": "<pre>num = int(input('Número: '))\nprint(f'Antecessor: {num-1}\nSucessor: {num+1}')</pre>",
+            "outras_formas": [
+                "<pre>num = int(input('Número: '))\nantecessor = num - 1\nsucessor = num + 1\nprint(f'Antecessor: {antecessor}\nSucessor: {sucessor}')</pre>",
+                "<pre>num = int(input('Número: '))\nantecessor = num - 1\nsucessor = num + 1\nprint('Antecessor: {}\nSucessor: {}'.format(antecessor, sucessor))</pre>",
+                "<pre>def antecessor_e_sucessor(num):\n   antecessor = num - 1\n   sucessor = num + 1\n   return antecessor, sucessor\nnum = int(input('Número: '))\nantecessor, sucessor = antecessor_e_sucessor(num)\nprint(f'Antecessor: {antecessor}\nSucessor: {sucessor}')</pre>",
+                "<pre>num = int(input('Número: '))\nantecessor, sucessor = num - 1, num + 1\nprint(f'Antecessor: {antecessor}\nSucessor: {sucessor}')</pre>"
+            ]
+        },
+        {
+            "id": 8,
+            "titulo": "Questão 8",
+            "descricao": "Faça um programa que defina uma variável com área de um quadrado no valor de 256 e calcule o valor de cada lado do quadrado.",
+            "codigo_principal": "<pre>import math\narea_Do_Quadrado = 256\nprint(f'Área do quadrado: {area_Do_Quadrado}\nValor de cada lado do quadrado: {math.sqrt(area_Do_Quadrado):.0f}'\nLado A 16 x 16 Lado B = {16 * 16}')</pre>",
+            "outras_formas": [
+                "<pre>import math\narea_do_quadrado = 256\nlado_do_quadrado = math.sqrt(area_do_quadrado)\nlado_a = 16\nlado_b = 16\nprint(f'Área do quadrado: {area_do_quadrado}\nValor de cada lado do quadrado: {lado_do_quadrado:.0f}'\nLado A {lado_a} x {lado_b} Lado B = {lado_a * lado_b}')</pre>",
+                "<pre>import math\nlado_do_quadrado = math.sqrt(256)\narea_do_quadrado = lado_do_quadrado ** 2\nlado_a = 16\nlado_b = 16\nprint(f'Área do quadrado: {area_do_quadrado}\nValor de cada lado do quadrado: {lado_do_quadrado:.0f}'\nLado A {lado_a} x {lado_b} Lado B = {lado_a * lado_b}')</pre>",
+                "<pre>area_do_quadrado = 256\nlado_do_quadrado = area_do_quadrado ** 0.5\nlado_a = 16\nlado_b = 16\nprint(f'Área do quadrado: {area_do_quadrado}\nValor de cada lado do quadrado: {lado_do_quadrado:.0f}'\nLado A {lado_a} x {lado_b} Lado B = {lado_a * lado_b}')</pre>",
+                "<pre>area_do_quadrado = 256\nlado_do_quadrado = area_do_quadrado // 4\nlado_a = 16\nlado_b = 16\nprint(f'Área do quadrado: {area_do_quadrado}\nValor de cada lado do quadrado: {lado_do_quadrado}'\nLado A {lado_a} x {lado_b} Lado B = {lado_a * lado_b}')</pre>"
+            ]
+        },
+        {
+            "id": 9,
+            "titulo": "Questão 9",
+            "descricao": "Crie um programa que leia um número real qualquer pelo teclado e mostre na tela a sua posição inteira. Ex: Digite um número: 6.127. O número 6.127 tem a parte inteira 6.",
+            "codigo_principal": "<pre>import math\nnumero = float(input('Digite um número: '))\nprint(f'O valor digitado foi {numero} e a sua porção inteira é: {math.trunc(numero)}'\nArredondamento para baixo de {numero} -> floor: {math.floor(numero)}'\nArredondamento para cima de {numero} -> ceil: {math.ceil(numero)}'\nNúmero real FLOAT: {numero} -> Número inteiro INT: {int(numero)}')</pre>",
+            "outras_formas": [
+                "<pre>import math\nnumero = float(input('Digite um número: '))\nprint('O valor digitado foi {} e a sua porção inteira é: {}'.format(numero, int(numero)))\nprint('Arredondamento para baixo de {} -> floor: {}'.format(numero, math.floor(numero)))\nprint('Arredondamento para cima de {} -> ceil: {}'.format(numero, math.ceil(numero)))\nprint('Número real FLOAT: {} -> Número inteiro INT: {}'.format(numero, int(numero)))</pre>"
+            ]
+        },
+        {
+            "id": 10,
+            "titulo": "Questão 10",
+            "descricao": "Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.",
+            "codigo_principal": "<pre>salario_do_funcionario = float(input('Salário do funcionário: R$'))\naumento = salario_do_funcionario * 15/100\nsalario_do_funcionario += aumento\nprint(f'O novo salário do funcionário com 15% de aumento é de: R${salario_do_funcionario:.2f}')</pre>",
+            "outras_formas": [
+                "<pre>SALARIO_INICIAL = float(input('Salário do funcionário: R$'))\nAUMENTO_PERCENTUAL = 0.15\naumento = SALARIO_INICIAL * AUMENTO_PERCENTUAL\nsalario_final = SALARIO_INICIAL + aumento\nprint(f'O novo salário do funcionário com 15% de aumento é de: R${salario_final:.2f}')</pre>",
+                "<pre>salario_do_funcionario = float(input('Salário do funcionário: R$'))\naumento = salario_do_funcionario * 0.15\nsalario_do_funcionario += aumento\nnovo_salario = round(salario_do_funcionario, 2)\nprint(f'O novo salário do funcionário com 15% de aumento é de: R${novo_salario}')</pre>",
+                "<pre>salario_do_funcionario = float(input('Salário do funcionário: R$'))\npercentual_aumento = float(input('Percentual de aumento: '))\naumento = salario_do_funcionario * (percentual_aumento / 100)\nsalario_do_funcionario += aumento\nprint(f'O novo salário do funcionário com {percentual_aumento}% de aumento é de: R${salario_do_funcionario:.2f}')</pre>"
+            ]
+        },
+        {
+            "id": 11,
+            "titulo": "Questão 11",
+            "descricao": "Determine o número de dias que uma pessoa já viveu até a data de HOJE (03/04/2018). Considere que um mês tenha 30 doas.",
+            "codigo_principal": "<pre>idade = int(input('Idade: '))\ndia, mes, ano = 3, 4, 2018\nprint(f'{idade * ano * mes} dias')</pre>",
+            "outras_formas": [
+                "<pre>idade = int(input('Idade: '))\nDIAS_POR_ANO = 365\nMESES = 12\ndias = idade * DIAS_POR_ANO * MESES\nprint(f'{dias} dias')</pre>",
+                "<pre>from datetime import date\ndata_nasc = input('Data de nascimento (dd/mm/aaaa): ')\ndia, mes, ano = map(int, data_nasc.split('/'))\nhoje = date.today()\ndias = (hoje - date(ano, mes, dia)).days\nprint(f'{dias} dias')</pre>",
+                "<pre>idade = int(input('Idade: '))\ndias_por_mes = {\n   1: 31,\n   2: 28,\n   3: 31,\n   4: 30,\n   5: 31,\n   6: 30,\n   7: 31,\n   8: 31,\n   9: 30,\n   10: 31,\n   11: 30,\n   12: 31\n}\ndias = idade * sum(dias_por_mes.values())\nprint(f'{dias} dias')</pre>"
+            ]
+        },
+        {
+            "id": 12,
+            "titulo": "Questão 12",
+            "descricao": "Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.",
+            "codigo_principal": "<pre>larg = float(input('Largura: '))\nalt = float(input('Altura: '))\nprint(f'Sua parede tem dimensão de {larg}x{alt} e sua área de {larg * alt}m²'\nPara pintar essa parede, você precisará de {larg * alt / 2:.2f}l de tinta.')</pre>",
+            "outras_formas": [
+                "<pre>largura = float(input('Informe a largura da parede em metros: '))\naltura = float(input('Informe a altura da parede em metros: '))\narea = largura * altura\ntinta = area / 2\nprint(f'A sua parede tem {largura:.2f} metros de largura e {altura:.2f} metros de altura, 'com uma área total de {area:.2f} metros quadrados.\nVocê precisará de {tinta:.2f} litros de tinta para pintar toda a parede.')</pre>"
+            ]
+        },
+        {
+            "id": 13,
+            "titulo": "Questão 13",
+            "descricao": "Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:</br>-> a. a idade dessa pessoa em anos;</br>-> b. a idade dessa pessoa em meses;</br>-> c. a idade dessa pessoa em dia;</br>-> d. a idade dessa pessoa em semanas.",
+            "codigo_principal": "<pre>from datetime import date\nano_Nasc = int(input('Ano de Nascimento: '))\nano_Atual = date.today().year\nidade = ano_Atual - ano_Nasc\nmes = idade * 12\ndia = idade * 365\nsemana = mes * 4\nprint(f'a idade em anos -> {idade} anos\na idade em meses -> {mes} meses\na idade em dias -> {dia} dias'\na idade em semanas -> {semana} semanas')</pre>",
+            "outras_formas": [
+                "<pre>from dateutil.relativedelta import relativedelta\nfrom datetime import date\nano_Nasc = int(input('Ano de Nascimento: '))\ndata_Nasc = date(ano_Nasc, 1, 1)\ndata_Atual = date.today()\nidade = relativedelta(data_Atual, data_Nasc)\nprint(f'a idade em anos -> {idade.years} anos\na idade em meses -> {idade.months} meses\na idade em dias -> {idade.days} dias'\na idade em semanas -> {idade.weeks} semanas')</pre>",
+                "<pre>import arrow\nano_Nasc = int(input('Ano de Nascimento: '))\ndata_Nasc = arrow.get(ano_Nasc, 1, 1)\ndata_Atual = arrow.now()\nidade = data_Atual - data_Nasc\nprint(f'a idade em anos -> {idade.years} anos\na idade em meses -> {idade.months} meses\na idade em dias -> {idade.days} dias'\na idade em semanas -> {idade.weeks} semanas')</pre>",
+                "<pre>import pendulum\nano_Nasc = int(input('Ano de Nascimento: '))\ndata_Nasc = pendulum.datetime(ano_Nasc, 1, 1)\ndata_Atual = pendulum.now()\nidade = data_Atual - data_Nasc\nprint(f'a idade em anos -> {idade.years} anos\na idade em meses -> {idade.months} meses\na idade em dias -> {idade.days} dias'\na idade em semanas -> {idade.weeks} semanas')</pre>"
+            ]
+        },
+        {
+            "id": 14,
+            "titulo": "Questão 14",
+            "descricao": "Calcular a média de 4 números digitados pelo usuário",
+            "codigo_principal": "<pre>num1 = float(input('Número 1: '))\nnum2 = float(input('Número 2: '))\nnum3 = float(input('Número 3: '))\nnum4 = float(input('Número 4: '))\nprint(f'Média: {(num1 + num2 + num3 + num4) / 4:.1f}')</pre>",
+            "outras_formas": [
+                "<pre>numeros = []\nfor i in range(4):\n   numero = float(input(f'Digite o {i+1}º número: '))\n   numeros.append(numero)\nmedia = sum(numeros) / len(numeros)\nprint(f'A média é: {media:.1f}')</pre>",
+                "<pre>def media_quatro_numeros():\n   num1 = float(input('Número 1: '))\n   num2 = float(input('Número 2: '))\n   num3 = float(input('Número 3: '))\n   num4 = float(input('Número 4: '))\n   media = (num1 + num2 + num3 + num4) / 4\n   print(f'Média: {media:.1f}')\nmedia_quatro_numeros()</pre>",
+                "<pre>from functools import reduce\nnumeros = [float(input(f'Digite o {i+1}º número: ')) for i in range(4)]\nmedia = reduce(lambda x, y: x + y, numeros) / len(numeros)\nprint(f'A média é: {media:.1f}')</pre>"
+            ]
+        },
+        {
+            "id": 15,
+            "titulo": "Questão 15",
+            "descricao": "Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas notas, considerando peso 2 para a primeira e peso 3 para a segunda.",
+            "codigo_principal": "<pre>n1 = float(input('Nota 1: '))\nn2 = float(input('Nota 2: '))\nmedia_Ponderada = (n1 * 2 + n2 * 3) / (2 + 3)\nprint(f'Média Ponderada: {media_Ponderada:.1f}')</pre>",
+            "outras_formas": [
+                "<pre>notas = []\npesos = []\nnotas.append(float(input('Digite a primeira nota: ')))\nnotas.append(float(input('Digite a segunda nota: ')))\npesos.append(2)\npesos.append(3)\nmedia_pond = sum([nota*peso for nota, peso in zip(notas, pesos)]) / sum(pesos)\nprint(f'Média ponderada: {media_pond:.1f}')</pre>",
+                "<pre>n1, n2 = map(float, input('Digite as duas notas: ').split())\nmedia_pond = (n1*2 + n2*3) / 5\nprint(f'Média ponderada: {media_pond:.1f}')</pre>",
+                "<pre>def media_ponderada(n1, n2):\n   return (n1*2 + n2*3) / 5\nn1 = float(input('Digite a primeira nota: '))\nn2 = float(input('Digite a segunda nota: '))\nmedia_pond = media_ponderada(n1, n2)\nprint(f'Média ponderada: {media_pond:.1f}')</pre>"
+            ]
+        },
+        {
+            "id": 16,
+            "titulo": "Questão 16",
+            "descricao": "Desenvolva um programa que calcule o salário líquido de um Profissional. Para elaborar o programa, é necessário possuir alguns dados, tais como: valor da hora aula, número de horas trabalhadas no mês e percentual de desconto do INSS. Em primeiro lugar, deve-se estabelecer o seu salário bruto para fazer o desconto e depois ter o valor do salário líquido.",
+            "codigo_principal": "<pre>valor_Hora_Aula = float(input('Valor da Hora Aula: R$'))\nnum_Horas_Trabalhadas = int(input('Horas Trabalhadas: '))\npercen_Desconto_Inss = int(input('Percentual de desconto: '))\nsalario_Bruto = valor_Hora_Aula * num_Horas_Trabalhadas\ndesc = salario_Bruto * percen_Desconto_Inss/100\nprint(f'Salário bruto: R${salario_Bruto:.2f}\nSalário líquido: R${salario_Bruto - desc:.2f}')</pre>",
+            "outras_formas": [
+                "<pre>def calcular_salario_bruto(valor_hora_aula, num_horas_trabalhadas):\nreturn valor_hora_aula * num_horas_trabalhadas\ndef calcular_desconto_inss(salario_bruto, percen_desconto_inss):\nreturn salario_bruto * percen_desconto_inss / 100\nvalor_hora_aula = float(input('Valor da Hora Aula: R$'))\nnum_horas_trabalhadas = int(input('Horas Trabalhadas: '))\npercen_desconto_inss = int(input('Percentual de desconto: '))\nsalario_bruto = calcular_salario_bruto(valor_hora_aula, num_horas_trabalhadas)\ndesconto_inss = calcular_desconto_inss(salario_bruto, percen_desconto_inss)\nsalario_liquido = salario_bruto - desconto_inss\nprint(f'Salário bruto: R${salario_bruto:.2f}\nSalário líquido: R${salario_liquido:.2f}')</pre>"
+            ]
+        },
+        {
+            "id": 17,
+            "titulo": "Questão 17",
+            "descricao": "Faça um programa que recebe o valor do salário-mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários-mínimos que esse funcionário ganha.",
+            "codigo_principal": "<pre>salario_Minino = float(input('Salário Mínimo: R$'))\nsalario_Funcionario = float(input('Salário do Funcionário: R$'))\nprint(f'Quantidade de salários mínimos: R${salario_Funcionario / salario_Minino:.2f}')</pre>",
+            "outras_formas": [
+                "<pre>salario_minimo = float(input('Digite o salário mínimo: R$'))\nsalario_funcionario = float(input('Digite o salário do funcionário: R$'))\nquantidade_salarios_minimos = salario_funcionario / salario_minimo\nprint('O funcionário ganha {:.2f} salários mínimos'.format(quantidade_salarios_minimos))</pre>",
+                "<pre>salario_minimo = float(input('Digite o salário mínimo: R$'))\nsalario_funcionario = float(input('Digite o salário do funcionário: R$'))\nquantidade_salarios_minimos = salario_funcionario / salario_minimo\nprint(f'O funcionário ganha {quantidade_salarios_minimos:.2f} salários mínimos')</pre>"
+            ]
+        },
+        {
+            "id": 18,
+            "titulo": "Questão 18",
+            "descricao": "Calcular a área do círculo de raio informado pelo usuário.",
+            "codigo_principal": "<pre>raio = int(input('Raio: '))\npi = 3.14\nprint(f'Área do circulo: {pi * raio * raio:.2f}')</pre>",
+            "outras_formas": [
+                "<pre>import math\nraio = float(input('Raio: '))\narea = math.pi * raio ** 2\nprint(f'Área do círculo: {area:.2f}')</pre>",
+                "<pre>raio = float(input('Raio: '))\narea = 3.14 * pow(raio, 2)\nprint(f'Área do círculo: {area:.2f}')</pre>",
+                "<pre>def calcular_area(raio):\nreturn 3.14 * raio ** 2\nraio = float(input('Raio: '))\narea = calcular_area(raio)\nprint(f'Área do círculo: {area:.2f}')</pre>",
+                "<pre>def calcular_area(raio):\n   return 3.14 * raio ** 2\nraio = float(input('Raio: '))\narea = calcular_area(raio)\nprint(f'Área do círculo: {area:.2f}')</pre>"
             ]
         }
     ],
@@ -31,6 +206,49 @@
             "codigo_principal": "<pre>numero = float(input(\"Digite um número: \"))\nif numero > 0:\n    print(\"Positivo\")\nelif numero < 0:\n    print(\"Negativo\")\nelse:\n    print(\"Zero\")</pre>",
             "outras_formas": [
                 "<pre>numero = float(input(\"Digite um número: \"))\nprint(\"Positivo\" if numero > 0 else \"Negativo\" if numero < 0 else \"Zero\")</pre>"
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "Questão 2",
+            "descricao": "Pergunte ao usuário cinco valores e imprima 'SIM' se a soma dele é múltiplo de 5 ou é par, mas não é múltiplo de 9, caso contrário imprima 'NÃO'.",
+            "codigo_principal": "<pre>valor1 = int(input('Valor 1: '))\nvalor2 = int(input('Valor 2: '))\nvalor3 = int(input('Valor 3: '))\nvalor4 = int(input('Valor 4: '))\nvalor5 = int(input('Valor 5: '))\nsoma = valor1 + valor2 + valor3 + valor4 + valor5\nif soma % 5 == 0 or soma % 2 == 0 and soma % 9 != 0:\n   print('SIM')\nelse:\n   print('NÃO')\nprint(soma)</pre>",
+            "outras_formas": [
+                "<pre>valores = []\nfor i in range(5):\n   valor = int(input(f'Valor {i+1}: '))\n   valores.append(valor)\nsoma = sum(valores)\nif soma % 5 == 0 or (soma % 2 == 0 and soma % 9 != 0):\n   print('SIM')\nelse:\n   print('NÃO')\nprint(soma)</pre>",
+                "<pre>valores = [int(input(f'Valor {i+1}: ')) for i in range(5)]\nsoma = sum(valores)\nif soma % 5 == 0 or (soma % 2 == 0 and soma % 9 != 0):\n   print('SIM')\nelse:\n   print('NÃO')\nprint(soma)</pre>"
+            ]
+        },
+        {
+            "id": 3,
+            "titulo": "Questão 3",
+            "descricao": "Imprima um número de minutos de um ano. Lembra-se de verificar os anos bissextos (que são os anos múltiplos de 4).",
+            "codigo_principal": "<pre>ano = int(input('Ano: '))\num_Dia = 24\numa_Hora = 60\nminutos_Em_Um_Dia = um_Dia * uma_Hora\nif ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:\n   print(f'No ano Bissexto, 1 ano possui {minutos_Em_Um_Dia * 366} minutos.')\nelse:\n   print(f'Um ano possui {minutos_Em_Um_Dia * 365} minutos.')</pre>",
+            "outras_formas": [
+                "<pre>ano = int(input('Ano: '))\num_Dia = 24\numa_Hora = 60\nminutos_Em_Um_Dia = um_Dia * uma_Hora\nbissexto = minutos_Em_Um_Dia * 366\nnormal = minutos_Em_Um_Dia * 365\nprint(f'No ano Bissexto, 1 ano possui {bissexto} minutos.' if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0 else f'Um ano possui {normal} minutos.')</pre>",
+                "<pre>def minutos_em_ano(ano):\n   um_Dia = 24\n   uma_Hora = 60\n   minutos_Em_Um_Dia = um_Dia * uma_Hora\n   return minutos_Em_Um_Dia * 366 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0 else minutos_Em_Um_Dia * 365\nano = int(input('Ano: '))\nprint(f'No ano Bissexto, 1 ano possui {minutos_em_ano(ano)} minutos.' if minutos_em_ano(ano) == minutos_Em_Um_Dia * 366 else f'Um ano possui {minutos_em_ano(ano)} minutos.')</pre>",
+                "<pre>try:\n   ano = int(input('Ano: '))\n   um_Dia = 24\n   uma_Hora = 60\n   minutos_Em_Um_Dia = um_Dia * uma_Hora\n   if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:\n      print(f'No ano Bissexto, 1 ano possui {minutos_Em_Um_Dia * 366} minutos.')\n   else:\n      print(f'Um ano possui {minutos_Em_Um_Dia * 365} minutos.')\nexcept ValueError:\n   print('Por favor, insira um ano válido.')</pre>"
+            ]
+        },
+        {
+            "id": 4,
+            "titulo": "Questão 4",
+            "descricao": "Pergunte dois valores: quanto ele recebe mensalmente a qual o valor padrão. Se ele receber mais que o valor padrão, ganhará 11,7% de aumento e logo depois um desconto de 5,4% nessa ordem caso contrário receberá 3.9% de desconto seguido de 13,06% de aumento. Imprima o valor do novo salário.",
+            "codigo_principal": "<pre>valor_Mensamente = float(input('Valor mensal: '))\nvalor_Padrao = float(input('Valor padrão: '))\nif valor_Padrao < valor_Mensamente:\n   porcento = 11.7/100\n   porcento2 = 5.4/100\n   aumento = valor_Mensamente * porcento\n   desconto = valor_Mensamente * porcento2\n   print(f'Novo salário: R${valor_Mensamente + aumento - desconto:.2f}')\nelse:\n   porcento = 3.9/100\n   porcento2 = 13.06/100\n   aumento = valor_Mensamente * porcento\n   desconto = valor_Mensamente * porcento2\n   print(f'Novo salário: R${valor_Mensamente + aumento - desconto:.2f}')</pre>",
+            "outras_formas": [
+                "<pre>valor_Mensamente = float(input('Valor mensal: '))\nvalor_Padrao = float(input('Valor padrão: '))\nporcento, porcento2 = (11.7/100, 5.4/100) if valor_Padrao < valor_Mensamente else (3.9/100, 13.06/100)\naumento = valor_Mensamente * porcento\ndesconto = valor_Mensamente * porcento2\nnovo_salario = valor_Mensamente + aumento - desconto\nprint(f'Novo salário: R${novo_salario:.2f}')</pre>",
+                "<pre>def calcular_aumento_e_desconto(salario, taxa_aumento, taxa_desconto):\n   aumento = salario * taxa_aumento\n   desconto = salario * taxa_desconto\n   return aumento, desconto\nvalor_Mensamente = float(input('Valor mensal: '))\nvalor_Padrao = float(input('Valor padrão: '))\nif valor_Padrao < valor_Mensamente:\n   porcento_aumento, porcento_desconto = 11.7/100, 5.4/100\nelse:\n   porcento_aumento, porcento_desconto = 3.9/100, 13.06/100\naumento, desconto = calcular_aumento_e_desconto(valor_Mensamente, porcento_aumento, porcento_desconto)\nnovo_salario = valor_Mensamente + aumento - desconto\nprint(f'Novo salário: R${novo_salario:.2f}')</pre>",
+                "<pre>valor_Mensamente = float(input('Valor mensal: '))\nvalor_Padrao = float(input('Valor padrão: '))\ntaxas = {\n   valor_Padrao < valor_Mensamente: {'aumento': 11.7/100, 'desconto': 5.4/100},\n   valor_Padrao >= valor_Mensamente: {'aumento': 3.9/100, 'desconto': 13.06/100}\n}\nporcento_aumento = taxas[True]['aumento']\nporcento_desconto = taxas[True]['desconto']\naumento = valor_Mensamente * porcento_aumento\ndesconto = valor_Mensamente * porcento_desconto\nnovo_salario = valor_Mensamente + aumento - desconto\nprint(f'Novo salário: R${novo_salario:.2f}')</pre>"
+            ]
+        },
+        {
+            "id": 5,
+            "titulo": "Questão 5",
+            "descricao": "Pergunte ao usuário quatro valores e imprima SIM se a média deles é múltiplo de 5 ou múltiplo de 7 ou múltiplo de 9, caso contrário imprima NÃO.",
+            "codigo_principal": "<pre>valor1 = float(input('VAlor 1:'))\nvalor2 = float(input('VAlor 2:'))\nvalor3 = float(input('VAlor 3:'))\nvalor4 = float(input('VAlor 4:'))\nmedia = (valor1 + valor2 + valor3 + valor4) / 4\nif media % 5 == 0 or media % 7 == 0 or media % 9 == 0:\n   print('SIM')\nelse:\n   print('NÃO')\nprint(media)</pre>",
+            "outras_formas": [
+                "<pre>valores = []\nfor i in range(4):\n   valor = float(input(f'Valor {i+1}: '))\n   valores.append(valor)\nmedia = sum(valores) / len(valores)\nif media % 5 == 0 or media % 7 == 0 or media % 9 == 0:\n   print('SIM')\nelse:\n   print('NÃO')\nprint(media)</pre>",
+                "<pre>valores = [float(input(f'Valor {i+1}: ')) for i in range(4)]\nmedia = sum(valores) / len(valores)\nif any(media % n == 0 for n in [5, 7, 9]):\n   print('SIM')\nelse:\n   print('NÃO')\nprint(media)</pre>",
+                "<pre>valores = [float(input(f'Valor {i+1}: ')) for i in range(4)]\nmedia = sum(valores) / len(valores)\ndivisores = [5, 7, 9]\nif any(media % n == 0 for n in divisores):\n   print('SIM')\nelse:\n   print('NÃO')\nprint(media)</pre>"
             ]
         }
     ]
