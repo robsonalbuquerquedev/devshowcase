@@ -21,7 +21,7 @@ const quizData = [
     },
     {
         question: "Qual título de Nossa Senhora é celebrado como Padroeira de Portugal?",
-        options: ["Nossa Senhora de Fátima", "Nossa Senhora Aparecida", "Nossa Senhora do Carmo", "Nossa Senhora de Lourdes"],
+        options: ["Nossa Senhora da Conceição", "Nossa Senhora Aparecida", "Nossa Senhora do Carmo", "Nossa Senhora de Lourdes"],
         answer: 0
     },
     {
