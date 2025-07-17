@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Informações sobre as funções</title>
+</head>
+<body>
+<div id="interface">
+    <section id="corpo">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h1>Passo a passo do código</h1>
+                    <h2>por Robson Albuquerque</h2>
+                    <h3 class="direita">Atualizado em 10/Janeiro/2023</h3>
+                </hgroup>
+            </header>
+            <h2>get_resposta_usuario(pergunta)</h2>
+            <p>Serve para o usuário inserir a resposta e valida se ela é válida.</p>
+            <h2>exibir_pergunta(pergunta)</h2>
+            <p>Serve para exibir a pergunta e as alternativas para o usuário.</p>
+
+            <h2>exibir_resultado(score, total_perguntas)</h2>
+            <p>Serve para calcular o percentual de questões corretas e exibir a pontuação final do usuário.</p>
+            <h2>run_quiz()</h2>
+            <p>Serve como função principal, chamando as funções acima e onde é colocada as perguntas do quiz e é feita a lógica do programa.</p>
+        </article>
+    </section>
+    <aside id="lateral">
+        <h1>Outras Informações</h1>
+        <h2>get_resposta_usuario(pergunta)</h2>
+        <p> é chamada no momento em que é necessário a resposta do usuário, ela espera como parametro pergunta para que assim possa verificar as alternativas possíveis para a resposta. Ela valida se a resposta é válida, pedindo novamente caso não esteja entre as alternativas.</p>
+
+        <h2>exibir_pergunta(pergunta)</h2>
+        <p>é chamada para exibir a pergunta e as alternativas para o usuário. Ela espera como parametro pergunta para que assim possa pegar as informações e exibi-las na tela.</p>
+
+        <h2>exibir_resultado(score, total_perguntas)</h2>
+        <p>é chamada no final do programa, ela é utilizada para calcular o percentual de questões corretas e exibir a pontuação final do usuário. Ela recebe como parametros o score e o total de perguntas para poder calcular o percentual.</p>
+        <h2>run_quiz()</h2>
+        <p>é a função principal e é chamada para iniciar a execução do programa. Ela contém a lógica do programa, inicializa as variáveis score e total_perguntas, contém as perguntas e alternativas do quiz, e o loop para percorrer as perguntas.</p>
+        <p>Dentro do loop é chamada as funções exibir_pergunta, get_resposta_usuario e verifica a resposta se está correta, incrementando o score quando necessário. No final do loop é chamada a função exibir_resultado para exibir o resultado.</p>
+    </aside>
+    <footer id="rodape">
+        <p>&copy; Copyright 2023 - by Robson Albuquerque <br>
+            <a href="https://colab.research.google.com/drive/1VvK73fIyK7IvG0JAnQu3yISvBZiY6yvT?usp=sharing" target="_blank">QUIZ</a>
+    </footer>
+</div>
+</body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #dddddd;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    div#interface {
+        width: 900px;
+        background-color: #ffffff;
+        margin: -20px auto 0px auto;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 50px;
+    }
+
+    a {
+        color: #606060;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    section#corpo {
+        display: block;
+        width: 500px;
+        float: left;
+        border-right: 1px solid #606060;
+        padding-right: 15px;
+    }
+
+    article#noticia-principal h2 {
+        font-size: 13pt;
+        color: #606060;
+        background-color: #888888;
+        padding: 5px 0px 5px 10px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    header#cabecalho-artigo h1 {
+        font-family: 'Fonte-logo', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    header#cabecalho-artigo h2 {
+        font-size: 13pt;
+        color: #cecece;
+        background-color: #ffffff;
+        margin: 0px;
+    }
+
+    header#cabecalho-artigo h3 {
+        font-size: 12pt;
+        color: #606060;
+    }
+
+    .direita {
+        text-align: right;
+    }
+
+    aside#lateral {
+        display: block;
+        width: 350px;
+        float: right;
+        background-color: #dddddd;
+        padding: 10px;
+        margin-top: 10px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    }
+
+    aside#lateral h1 {
+        font-family: 'Fonte-logo', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-top: 0px;
+    }
+
+    aside#lateral h2 {
+        background-color: #606060;
+        font-size: 13pt;
+        color: #ffffff;
+        padding: 5px;
+    }
+
+    footer#rodape {
+        clear: both;
+        border-top: 1px solid #606060;
+    }
+
+    footer#rodape p {
+        text-align: center;
+    }
+</style>
+</html>
