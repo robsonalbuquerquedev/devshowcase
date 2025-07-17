@@ -1,25 +1,49 @@
 # DevShowcase
 
-Bem-vindo ao **DevShowcase**! Este repositório é uma coleção dos meus projetos front-end, incluindo trabalhos acadêmicos, pessoais e colaborações com terceiros. Aqui, você encontrará uma variedade de aplicações web que demonstram minhas habilidades e interesses no desenvolvimento front-end.
+Bem-vindo ao **DevShowcase**!  
+Este repositório é uma vitrine dos meus projetos front-end desenvolvidos durante meus estudos. Aqui você encontrará experimentos, desafios e aplicações criadas com base em cursos, vídeos e práticas acadêmicas — todos voltados ao aprendizado contínuo de HTML, CSS e JavaScript.
 
-## Sobre Mim
+---
 
-Olá, meu nome é Robson Albuquerque. Sou um desenvolvedor front-end apaixonado por criar experiências web incríveis. Atualmente estou cursando **Análise e Desenvolvimento de Sistemas**. Adoro aprender novas tecnologias e compartilhar meu conhecimento com a comunidade.
+## 🧑‍💻 Sobre Mim
 
-## Projetos
+Olá! Sou **Robson Albuquerque**, estudante de **Análise e Desenvolvimento de Sistemas** e apaixonado por desenvolvimento front-end.  
+Adoro aprender novas tecnologias, praticar com projetos reais e compartilhar conhecimento com a comunidade. Sempre estou explorando formas de melhorar minhas habilidades e construir interfaces acessíveis, modernas e funcionais.
 
-- [Projeto 1](link_do_projeto1): Descrição breve do projeto 1.
-- [Projeto 2](link_do_projeto2): Descrição breve do projeto 2.
-- [Projeto 3](link_do_projeto3): Descrição breve do projeto 3.
+---
 
-## Como Navegar
+## 🚀 Projetos em Destaque
 
-Cada pasta no repositório corresponde a um projeto diferente. Dentro de cada pasta, você encontrará uma breve descrição do projeto, instruções sobre como rodá-lo localmente e, em alguns casos, um link para uma versão hospedada online.
+Abaixo estão alguns dos projetos que você pode explorar:
 
-## Contato
+| Projeto                  | Descrição                                                                 |
+|--------------------------|---------------------------------------------------------------------------|
+| [Agência Fake](./agencia-fake) | Clonagem de uma página de agência digital para estudos com HTML e CSS.     |
+| [Página de Notícia](./pagina-noticia) | Página de blog/jornal desenvolvida com base em tutoriais de YouTube.     |
+| [Mudar Cor de Fundo](./mudar-cor-fundo) | Projeto simples para trocar o fundo com JavaScript.                      |
+| [Estudos HTML e CSS](./estudos-html-css) | Diversos exercícios de estruturação e estilização de páginas web.       |
+| [Grid e Flexbox](./grid-flexbox) | Estudos de layout com CSS Grid Layout e Flexbox.                          |
+| [CEV](./cev) | Projetos feitos com base nos cursos do canal Curso em Vídeo (YouTube).  |
 
-Se você tiver alguma dúvida ou quiser colaborar em um projeto, sinta-se à vontade para entrar em contato comigo:
+---
 
-- [GitHub](https://github.com/rma98)
-- [LinkedIn](https://linkedin.com/in/robson-monteiro-de-albuquerque-8b3853230)
-- [Email](robalbuquerque98@gmail.com)
+## 🧭 Como Navegar
+
+- Cada pasta neste repositório representa um projeto separado.
+- Dentro de cada uma, você encontrará os arquivos necessários para rodar localmente (`index.html`, CSS, imagens etc).
+- Basta abrir o `index.html` no navegador para visualizar.
+- Você também pode explorar a [homepage do repositório](./index.html) para ver todos os projetos reunidos.
+
+---
+
+## 📫 Contato
+
+Fique à vontade para entrar em contato:
+
+- 🔗 [GitHub](https://github.com/robsonalbuquerquedev)
+- 💼 [LinkedIn](https://linkedin.com/in/robson-monteiro-de-albuquerque-8b3853230)
+- 📧 [robson.albuquerque.docs@gmail.com](mailto:robson.albuquerque.docs@gmail.com)
+
+---
+
+**Feito com ❤️ por Robson Albuquerque**
