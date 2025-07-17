@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+$arial: Arial, sans-serif;
+$cor1: #f4f4f4;
+$cor2: #fff;
+$cor3: #333;
+$cor4: #005f73;
+$cor5: #0a9396;
+$cor6: #94d2bd;
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: $arial;
+
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, $cor4, $cor5);
+    color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid $cor6;
+
+    h1 {
+        font-size: 3.2rem;
+        margin-bottom: 0.4rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    p {
+        font-size: 1.6rem;
+        opacity: 0.9;
+    }
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    padding: 3rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background: $cor2;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    box-shadow: 0 0.6rem 1.4rem rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    color: $cor3;
+    transition: transform 0.3s ease, box-shadow 0.3s;
+    border: 1px solid #ddd;
+
+    img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+        background-color: #f2f2f2;
+        padding: 0.5rem;
+        transition: transform 0.3s ease;
+    }
+
+    .project-info {
+        flex-grow: 1;
+        padding: 2rem;
+        background-color: #fff;
+
+        h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            color: $cor4;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #444;
+            line-height: 1.5;
+        }
+    }
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+
+        img {
+            transform: scale(1.03);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        transition: none;
+
+        img {
+            transition: none;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+    background: $cor4;
+    color: #ffffff;
+    border-top: 4px solid $cor6;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+
+    p {
+        margin: 0;
+    }
+}
